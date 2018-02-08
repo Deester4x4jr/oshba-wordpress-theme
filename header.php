@@ -31,18 +31,12 @@
 			<!-- header -->
 			<header class="header clear" role="banner">
 
-					<!-- logo -->
-					<div class="logo">
-						<a href="<?php echo home_url(); ?>">
-							<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
-							<img src="<?php echo get_template_directory_uri(); ?>/img/logo.svg" alt="Logo" class="logo-img">
-						</a>
-					</div>
-					<!-- /logo -->
-
 					<!-- nav -->
-					<!-- NEED TO BUILD CUSTOM MENU WALKER FOR THIS -->
-					<?php echo bulma_menu(); ?>
+					<div class="container">
+						<nav class="level">
+							<?php echo bulma_menu(); ?>
+						</nav>
+					</div>
 					<!-- <nav class="level" role="navigation"> -->
 						<?php //html5blank_nav(); ?>
 					<!-- </nav> -->
