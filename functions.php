@@ -119,42 +119,34 @@ function bulma_menu() {
     }
     
     foreach ($menu_items as $k=>$menu_item) {
-
-        $the_link = array(
-            'opener' => '<p class="level-item has-text-centered">',
-            'content' => '',
-            'closer' => '</p>',
-        );
         
         if (isset($menu_item['subs'])) {
             
-            $the_link['content'] = '<div class="dropdown is-hoverable">';
-            $the_link['content'] .= '<div class="dropdown-trigger"><button class="button" aria-haspopup="true" aria-controls="dropdown-menu-'.$k.'">';
-            $the_link['content'] .= '<a class="link is-info" href="'.$menu_item['link'].'">'.$menu_item['title'].'</a>';
-            // $the_link['content'] .= '<span class="icon is-small"><i class="fas fa-angle-down" aria-hidden="true"></i></span>';
-            $the_link['content'] .= '</button></div>';
-            $the_link['content'] .= '<div class="dropdown-menu" id="dropdown-menu-'.$k.'" role="menu"><div class="dropdown-content">';
+            $the_link = '<div class="level-item has-text-centered dropdown is-hoverable">';
+            $the_link .= '<div class="dropdown-trigger"><button class="button" aria-haspopup="true" aria-controls="dropdown-menu-'.$k.'">';
+            $the_link .= '<a class="link is-info" href="'.$menu_item['link'].'">'.$menu_item['title'].'</a>';
+            $the_link['content'] .= '<span class="icon is-small"><i class="fas fa-angle-down" aria-hidden="true"></i></span>';
+            $the_link .= '</button></div>';
+            $the_link .= '<div class="dropdown-menu" id="dropdown-menu-'.$k.'" role="menu"><div class="dropdown-content">';
 
             foreach ($menu_item['subs'] as $key=>$menu_sub) {
                 
-                $the_link['content'] .= '<a class="link is-info dropdown-item" href="'.$menu_sub['link'].'">'.$menu_sub['title'].'</a>';
+                $the_link .= '<a class="link is-info dropdown-item" href="'.$menu_sub['link'].'">'.$menu_sub['title'].'</a>';
             }
 
-            $the_link['content'] .= '</div></div></div>';
+            $the_link .= '</div></div></div>';
             // echo $menu_item['title'].' has '.count($menu_item['subs']).' children'.PHP_EOL;
         } else {
             
-            $the_link['content'] = '<a class="link is-info" href="'.$menu_item['link'].'">'.$menu_item['title'].'</a>';
+            $the_link['content'] = '<p class="level-item has-text-centered"><a class="link is-info" href="'.$menu_item['link'].'">'.$menu_item['title'].'</a></p>';
             // echo $menu_item['title'].' has no children'.PHP_EOL;
         }
-
-        $the_link = implode('', $the_link);
 
         $menu_items[] = $the_link;
         unset($menu_items[$k]);
     }
 
-    $output = '<nav class="level"><div class="container">';
+    $output = '<div class="container"><nav class="level">';
     $links = count($menu_items);
 
     if (count($links % 2 == 0)) {
@@ -180,7 +172,7 @@ function bulma_menu() {
         unset($menu_items[$k]);
     }
 
-    $output .= '</div></nav>';
+    $output .= '</nav></div>';
 
     return $output;
 }
