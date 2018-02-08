@@ -165,7 +165,7 @@ function bulma_menu() {
                 break;
             }
 
-            ]$output .= $item;
+            $output .= $item;
 
             unset($menu_items[$k]);
         }
