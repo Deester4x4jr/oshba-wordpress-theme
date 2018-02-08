@@ -91,7 +91,6 @@ function html5blank_nav()
 // Build Bulma Menu Level Component
 function bulma_menu() {
 
-    $count = 0;
     $menu = get_term(get_nav_menu_locations()['header-menu'], 'nav_menu')->name;
     $menu_items = wp_get_nav_menu_items($menu);
 
@@ -146,18 +145,20 @@ function bulma_menu() {
         unset($menu_items[$k]);
     }
 
+    $count = 1;
     $links = count($menu_items);
 
     if (count($links % 2 == 0)) {
         
         foreach ($menu_items as $k=>$item) {
             
-            if ($k == $links/2) {
+            if ($count == $links/2) {
                 break;
             }
 
             $output .= $item;
 
+            $count++;
             unset($menu_items[$k]);
         }
     }
