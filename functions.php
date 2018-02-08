@@ -154,7 +154,7 @@ function bulma_menu() {
         unset($menu_items[$k]);
     }
 
-    $output = '<nav class="level">';
+    $output = '<nav class="level"><div class="container">';
     $links = count($menu_items);
 
     if (count($links % 2 == 0)) {
@@ -165,9 +165,7 @@ function bulma_menu() {
                 break;
             }
 
-            $output .= '<p class="level-item has-text-centered">';
-            $output .= $item;
-            $output .= '</p>';
+            ]$output .= $item;
 
             unset($menu_items[$k]);
         }
@@ -177,14 +175,12 @@ function bulma_menu() {
 
     foreach ($menu_items as $k=>$item) {
 
-        $output .= '<p class="level-item has-text-centered">';
         $output .= $item;
-        $output .= '</p>';
 
         unset($menu_items[$k]);
     }
 
-    $output .= '</nav>';
+    $output .= '</div></nav>';
 
     return $output;
 }
