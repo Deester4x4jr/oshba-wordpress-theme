@@ -146,7 +146,6 @@ function bulma_menu() {
         unset($menu_items[$k]);
     }
 
-    $output = '<div class="container"><nav class="level">';
     $links = count($menu_items);
 
     if (count($links % 2 == 0)) {
@@ -171,8 +170,6 @@ function bulma_menu() {
 
         unset($menu_items[$k]);
     }
-
-    $output .= '</nav></div>';
 
     return $output;
 }
