@@ -117,15 +117,30 @@ function bulma_menu() {
 
         unset($menu_items[$k]);
     }
+
     echo '<pre>';
+    
     foreach ($menu_items as $k=>$menu_item) {
+
+        $the_link = array(
+            'opener' => '<p class="level-item has-text-centered">',
+            'content' => '',
+            'closer' => '</p>',
+        );
         
         if (isset($menu_item['subs'])) {
-            echo $menu_item['title'].' has '.count($menu_item['subs']).' children'.PHP_EOL;
+            
+            $the_link['content'] = 'DROPDOWN';
+            // echo $menu_item['title'].' has '.count($menu_item['subs']).' children'.PHP_EOL;
         } else {
-            echo $menu_item['title'].' has no children'.PHP_EOL;
+            
+            $the_link['content'] = '<a class="link is-info" href="'.$menu_item['link'].'">'.$menu_item['title'].'</a>';
+            // echo $menu_item['title'].' has no children'.PHP_EOL;
         }
     }
+
+    echo implode('', $the_link).PHP_EOL;
+    
     echo '</pre>';
 
     // $output = '<nav class="level" role="navigation">'..'</nav>';
