@@ -1,0 +1,21 @@
+{
+  "name": "oshba-theme",
+  "description": "Powerful shell for rapidly deploying your WordPress projects.",
+  "main": "gulpfile.js",
+  "license": "MIT",
+  "homepage": "https://github.com/Deester4x4jr/oshba-wordpress-theme",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bulma": "^0.6.2",
+    "animate.css": "^3.5.2",
+    "slick-carousel": "^1.8.1",
+    "macy": "^2.3.0"
+  }
+}
