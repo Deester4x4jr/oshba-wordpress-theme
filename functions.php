@@ -117,8 +117,6 @@ function bulma_menu() {
 
         unset($menu_items[$k]);
     }
-
-    echo '<pre>';
     
     foreach ($menu_items as $k=>$menu_item) {
 
@@ -150,9 +148,13 @@ function bulma_menu() {
             // echo $menu_item['title'].' has no children'.PHP_EOL;
         }
 
-        echo implode('', $the_link).PHP_EOL;
+        $the_link = implode('', $the_link);
+
+        $menu_items[] = $the_link;
+        unset($menu_items[$k]);
     }
-    
+    echo '<pre>';
+    print_r($menu_items);
     echo '</pre>';
 
     // $output = '<nav class="level" role="navigation">'..'</nav>';
