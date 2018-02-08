@@ -143,6 +143,7 @@ function bulma_menu() {
     echo '<pre>';
     // echo count($menu_items);
     print_r($level);
+    print_r($menu_items);
     echo '</pre>';
 
     // return $output;
