@@ -153,13 +153,40 @@ function bulma_menu() {
         $menu_items[] = $the_link;
         unset($menu_items[$k]);
     }
-    echo '<pre>';
-    print_r($menu_items);
-    echo '</pre>';
 
-    // $output = '<nav class="level" role="navigation">'..'</nav>';
+    $output = '<nav class="level">';
+    $links = count($menu_items);
 
-    // return $output;
+    if (count($links % 2 == 0)) {
+        
+        foreach ($menu_items as $k=>$item) {
+            
+            if ($k == $links/2) {
+                break;
+            }
+
+            $output .= '<p class="level-item has-text-centered">';
+            $output .= $item;
+            $output .= '</p>';
+
+            unset($menu_items[$k]);
+        }
+    }
+
+    $output .= '<p class="level-item has-text-centered"><a href="/"><img src="https://bulma.io/images/bulma-type.png" alt="" style="height: 30px;"></a></p>';
+
+    foreach ($menu_items as $k=>$item) {
+
+        $output .= '<p class="level-item has-text-centered">';
+        $output .= $item;
+        $output .= '</p>';
+
+        unset($menu_items[$k]);
+    }
+
+    $output .= '</nav>';
+
+    return $output;
 }
 
 // Load HTML5 Blank scripts (header.php)
