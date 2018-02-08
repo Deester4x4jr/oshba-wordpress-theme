@@ -148,6 +148,10 @@ function bulma_menu() {
     $count = 1;
     $links = count($menu_items);
 
+    echo '<pre>';
+    echo $links.' - '.$links/2;
+    echo '</pre>';
+
     if (count($links % 2 == 0)) {
         
         foreach ($menu_items as $k=>$item) {
