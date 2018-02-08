@@ -42,7 +42,7 @@
 
 					<!-- nav -->
 					<!-- NEED TO BUILD CUSTOM MENU WALKER FOR THIS -->
-					<?php echo bulma_menu(); ?>
+					<?php bulma_menu(); ?>
 					<!-- <nav class="level" role="navigation"> -->
 						<?php //html5blank_nav(); ?>
 					<!-- </nav> -->
