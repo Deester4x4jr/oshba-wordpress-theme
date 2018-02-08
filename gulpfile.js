@@ -87,7 +87,7 @@ gulp.task('php', function() {
 
 gulp.task('style', function() {
 
-  order('compile-css','deploy');
+  order('compile-css'/*,'deploy'*/);
 });
 
 gulp.task('compile-css', function() {
