@@ -91,13 +91,12 @@ function html5blank_nav()
 // Build Bulma Menu Level Component
 function bulma_menu() {
 
-    // $menu = get_term( $locations[$theme_location], 'header_menu' );
-    $menu_items = wp_get_nav_menu_items('main_nav');
+    $menu = get_term(get_nav_menu_locations()['header-menu'], 'nav_menu')->name;
+    $menu_items = wp_get_nav_menu_items($menu);
 
     // $output = '<nav class="level" role="navigation">'..'</nav>';
     echo '<pre>';
-    // print_r($menu_items);
-    echo get_term(get_nav_menu_locations()['header-menu'], 'nav_menu')->name;
+    print_r($menu_items);
     echo '</pre>';
 
     // return $output;
