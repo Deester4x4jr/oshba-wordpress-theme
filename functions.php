@@ -91,52 +91,58 @@ function html5blank_nav()
 // Build Bulma Menu Level Component
 function bulma_menu() {
 
+    $level = array();
     $menu = get_term(get_nav_menu_locations()['header-menu'], 'nav_menu')->name;
     $menu_items = wp_get_nav_menu_items($menu);
 
     foreach( $menu_items as $menu_item ) {
              
-        $link = $menu_item->url;
-        $title = $menu_item->title;
+        $the_link = array(
+            'title' => $menu_item->title,
+            'link' => $menu_item->url,
+        );
+
+        $menu_id = $menu_item->menu_item_parent;
          
-        if ( !$menu_item->menu_item_parent ) {
-            $parent_id = $menu_item->ID;
-             
-            $menu_list .= '<li class="item">' ."\n";
-            $menu_list .= '<a href="'.$link.'" class="title">'.$title.'</a>' ."\n";
+        if ( !$menu_id ) {
+            
+            $level[$menu_id] = $the_link;
+        } else {
+
+            $level[$menu_id][] = $the_link;
         }
 
-        if ( $parent_id == $menu_item->menu_item_parent ) {
+        // if ( $parent_id == $menu_item->menu_item_parent ) {
 
-            if ( !$submenu ) {
-                $submenu = true;
-                $menu_list .= '<ul class="sub-menu">' ."\n";
-            }
+        //     if ( !$submenu ) {
+        //         $submenu = true;
+        //         $menu_list .= '<ul class="sub-menu">' ."\n";
+        //     }
 
-            $menu_list .= '<li class="item">' ."\n";
-            $menu_list .= '<a href="'.$link.'" class="title">'.$title.'</a>' ."\n";
-            $menu_list .= '</li>' ."\n";
+        //     $menu_list .= '<li class="item">' ."\n";
+        //     $menu_list .= '<a href="'.$link.'" class="title">'.$title.'</a>' ."\n";
+        //     $menu_list .= '</li>' ."\n";
                  
 
-            if ( $menu_items[ $count + 1 ]->menu_item_parent != $parent_id && $submenu ){
-                $menu_list .= '</ul>' ."\n";
-                $submenu = false;
-            }
+        //     if ( $menu_items[ $count + 1 ]->menu_item_parent != $parent_id && $submenu ){
+        //         $menu_list .= '</ul>' ."\n";
+        //         $submenu = false;
+        //     }
 
-        }
+        // }
 
-        if ( $menu_items[ $count + 1 ]->menu_item_parent != $parent_id ) { 
-            $menu_list .= '</li>' ."\n";      
-            $submenu = false;
-        }
+        // if ( $menu_items[ $count + 1 ]->menu_item_parent != $parent_id ) { 
+        //     $menu_list .= '</li>' ."\n";      
+        //     $submenu = false;
+        // }
 
-        $count++;
+        // $count++;
     }
 
     // $output = '<nav class="level" role="navigation">'..'</nav>';
     echo '<pre>';
-    echo count($menu_items);
-    print_r($menu_items);
+    // echo count($menu_items);
+    print_r($level);
     echo '</pre>';
 
     // return $output;
