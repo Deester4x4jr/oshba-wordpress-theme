@@ -121,53 +121,24 @@ function bulma_menu() {
         
         if (isset($menu_item['subs'])) {
             
-            $the_link = '<div class="level-item has-text-centered dropdown is-hoverable">';
-            $the_link .= '<div class="dropdown-trigger"><button class="button" aria-haspopup="true" aria-controls="dropdown-menu-'.$k.'">';
-            $the_link .= '<a class="link is-info" href="'.$menu_item['link'].'">'.$menu_item['title'].'</a>';
-            $the_link .= '<span class="icon is-small"><i class="fas fa-angle-down" aria-hidden="true"></i></span>';
-            $the_link .= '</button></div>';
-            $the_link .= '<div class="dropdown-menu" id="dropdown-menu-'.$k.'" role="menu"><div class="dropdown-content">';
+            $the_link = '<div class="navbar-item has-dropdown is-hoverable">';
+            $the_link .= '<a class="navbar-link" href="'.$menu_item['link'].'">'.$menu_item['title'].'</a>';
+            $the_link .= '<div class="navbar-dropdown">';
 
             foreach ($menu_item['subs'] as $key=>$menu_sub) {
-                
-                $the_link .= '<a class="link is-info dropdown-item" href="'.$menu_sub['link'].'">'.$menu_sub['title'].'</a>';
+
+                $the_link .= '<a class="navbar-item" href="'.$menu_sub['link'].'">'.$menu_sub['title'].'</a>';
             }
 
-            $the_link .= '</div></div></div>';
-            // echo $menu_item['title'].' has '.count($menu_item['subs']).' children'.PHP_EOL;
+            $the_link .= '</div></div>';
         } else {
             
-            $the_link = '<p class="level-item has-text-centered"><a class="link is-info" href="'.$menu_item['link'].'">'.$menu_item['title'].'</a></p>';
-            // echo $menu_item['title'].' has no children'.PHP_EOL;
+            $the_link = '<div class="navbar-item"><a class="navbar-link" href="'.$menu_item['link'].'">'.$menu_item['title'].'</a></p>';
         }
 
         $menu_items[] = $the_link;
         unset($menu_items[$k]);
     }
-
-    $count = 0;
-    $links = count($menu_items);
-
-    // if ($links % 2 == 0) {
-
-    //     $output .= '<div class="level-left">';
-        
-    //     foreach ($menu_items as $k=>$item) {
-            
-    //         if ($count == $links/2) {
-    //             break;
-    //         }
-
-    //         $output .= $item;
-
-    //         $count++;
-    //         unset($menu_items[$k]);
-    //     }
-
-    //     $output .= '</div>';
-    // }
-
-    $output .= ( $count ? '<div class="level-right">' : '' );
 
     foreach ($menu_items as $k=>$item) {
 
@@ -175,8 +146,6 @@ function bulma_menu() {
 
         unset($menu_items[$k]);
     }
-
-    $output .= ( $count ? '</div>' : '' );
 
     return $output;
 }
