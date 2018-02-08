@@ -16,6 +16,7 @@
     "bulma": "^0.6.2",
     "animate.css": "^3.5.2",
     "slick-carousel": "^1.8.1",
-    "macy": "^2.3.0"
+    "macy": "^2.3.0",
+    "normalize-css": "^7.0.0"
   }
 }
