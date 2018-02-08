@@ -96,7 +96,8 @@ function bulma_menu() {
 
     // $output = '<nav class="level" role="navigation">'..'</nav>';
     echo '<pre>';
-    print_r($menu_items);
+    // print_r($menu_items);
+    print_r(get_nav_menu_locations());
     echo '</pre>';
 
     // return $output;
