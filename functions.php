@@ -148,24 +148,24 @@ function bulma_menu() {
     $count = 0;
     $links = count($menu_items);
 
-    if ($links % 2 == 0) {
+    // if ($links % 2 == 0) {
 
-        $output .= '<div class="level-left">';
+    //     $output .= '<div class="level-left">';
         
-        foreach ($menu_items as $k=>$item) {
+    //     foreach ($menu_items as $k=>$item) {
             
-            if ($count == $links/2) {
-                break;
-            }
+    //         if ($count == $links/2) {
+    //             break;
+    //         }
 
-            $output .= $item;
+    //         $output .= $item;
 
-            $count++;
-            unset($menu_items[$k]);
-        }
+    //         $count++;
+    //         unset($menu_items[$k]);
+    //     }
 
-        $output .= '</div>';
-    }
+    //     $output .= '</div>';
+    // }
 
     $output .= '<p class="level-item has-text-centered"><a href="/"><img src="https://bulma.io/images/bulma-type.png" alt="" style="height: 30px;"></a></p>';
 
