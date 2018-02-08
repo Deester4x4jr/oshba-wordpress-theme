@@ -149,6 +149,8 @@ function bulma_menu() {
     $links = count($menu_items);
 
     if ($links % 2 == 0) {
+
+        $output .= '<div class="level-left">';
         
         foreach ($menu_items as $k=>$item) {
             
@@ -161,9 +163,13 @@ function bulma_menu() {
             $count++;
             unset($menu_items[$k]);
         }
+
+        $output .= '</div>';
     }
 
     $output .= '<p class="level-item has-text-centered"><a href="/"><img src="https://bulma.io/images/bulma-type.png" alt="" style="height: 30px;"></a></p>';
+
+    $output .= ( $count ? '<div class="level-right">' : '' );
 
     foreach ($menu_items as $k=>$item) {
 
@@ -171,6 +177,8 @@ function bulma_menu() {
 
         unset($menu_items[$k]);
     }
+
+    $output .= ( $count ? '</div>' : '' );
 
     return $output;
 }
