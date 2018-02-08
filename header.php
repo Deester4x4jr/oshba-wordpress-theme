@@ -44,7 +44,7 @@
 					<!-- NEED TO BUILD CUSTOM MENU WALKER FOR THIS -->
 					<?php bulma_menu(); ?>
 					<!-- <nav class="level" role="navigation"> -->
-						<!-- <?php html5blank_nav(); ?> -->
+						<?php //html5blank_nav(); ?>
 					<!-- </nav> -->
 					<!-- /nav -->
 
