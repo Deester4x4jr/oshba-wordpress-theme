@@ -106,7 +106,6 @@ function bulma_menu() {
         $tmp = array(
             'title' => $title,
             'link' => $link,
-            // 'order' => $count,
         );
          
         if ( !$parent_id ) {
