@@ -167,8 +167,6 @@ function bulma_menu() {
     //     $output .= '</div>';
     // }
 
-    $output .= '<div class="level-item has-text-centered"><a href="/"><img src="https://bulma.io/images/bulma-type.png" alt="" style="height: 30px;"></a></div>';
-
     $output .= ( $count ? '<div class="level-right">' : '' );
 
     foreach ($menu_items as $k=>$item) {
