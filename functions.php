@@ -88,6 +88,18 @@ function html5blank_nav()
 	);
 }
 
+// Build Bulma Menu Level Component
+function bulma_menu() {
+
+    $menu = get_term( $locations[$theme_location], 'header-menu' );
+    // $menu_items = wp_get_nav_menu_items($menu->term_id);
+
+    // $output = '<nav class="level" role="navigation">'..'</nav>';
+    $output = '<pre>'.$menu.'</pre>';
+
+    return $output;
+}
+
 // Load HTML5 Blank scripts (header.php)
 function html5blank_header_scripts()
 {
