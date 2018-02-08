@@ -137,9 +137,9 @@ function bulma_menu() {
             $the_link['content'] = '<a class="link is-info" href="'.$menu_item['link'].'">'.$menu_item['title'].'</a>';
             // echo $menu_item['title'].' has no children'.PHP_EOL;
         }
-    }
 
-    echo implode('', $the_link).PHP_EOL;
+        echo implode('', $the_link).PHP_EOL;
+    }
     
     echo '</pre>';
 
