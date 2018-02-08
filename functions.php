@@ -130,7 +130,19 @@ function bulma_menu() {
         
         if (isset($menu_item['subs'])) {
             
-            $the_link['content'] = 'DROPDOWN';
+            $the_link['content'] = '<div class="dropdown is-hoverable">';
+            $the_link['content'] .= '<div class="dropdown-trigger"><button class="button" aria-haspopup="true" aria-controls="dropdown-menu-'.$k.'">';
+            $the_link['content'] .= '<a class="link is-info" href="'.$menu_item['link'].'">'.$menu_item['title'].'</a>';
+            // $the_link['content'] .= '<span class="icon is-small"><i class="fas fa-angle-down" aria-hidden="true"></i></span>';
+            $the_link['content'] .= '</button></div>';
+            $the_link['content'] .= '<div class="dropdown-menu" id="dropdown-menu-'.$k.'" role="menu"><div class="dropdown-content">';
+
+            foreach ($menu_item['subs'] as $key=>$menu_sub) {
+                
+                $the_link['content'] .= '<a class="link is-info dropdown-item" href="'.$menu_sub['link'].'">'.$menu_sub['title'].'</a>';
+            }
+
+            $the_link['content'] .= '</div></div></div>';
             // echo $menu_item['title'].' has '.count($menu_item['subs']).' children'.PHP_EOL;
         } else {
             
