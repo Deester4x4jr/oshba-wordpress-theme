@@ -145,7 +145,7 @@ function bulma_menu() {
         unset($menu_items[$k]);
     }
 
-    $count = 1;
+    $count = 0;
     $links = count($menu_items);
 
     if ($links % 2 == 0) {
