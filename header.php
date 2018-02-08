@@ -32,10 +32,28 @@
 			<header class="header clear" role="banner">
 
 					<!-- nav -->
-					<div class="container">
-						<nav class="level">
-							<?php echo bulma_menu(); ?>
-						</nav>
+					<nav id="navbar" class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
+						<div class="container">
+  							
+  							<div class="navbar-brand">
+  								<a href="/"><img src="https://bulma.io/images/bulma-type.png"></a>
+  							</div>
+
+  							<div id="main-nav" class="navbar-menu">
+  								<div class="navbar-start">
+									<?php echo bulma_menu(); ?>
+								</div>
+
+								<div class="navbar-end">
+									<!-- navbar items -->
+								</div>
+  							</div>
+  							
+  							<button class="button navbar-burger">
+						      <span></span>
+						      <span></span>
+						      <span></span>
+						    </button>
 					</div>
 					<!-- <nav class="level" role="navigation"> -->
 						<?php //html5blank_nav(); ?>
