@@ -92,7 +92,6 @@ function html5blank_nav()
 function bulma_menu() {
 
     $count = 0;
-    // $level = array();
     $menu = get_term(get_nav_menu_locations()['header-menu'], 'nav_menu')->name;
     $menu_items = wp_get_nav_menu_items($menu);
 
@@ -110,26 +109,26 @@ function bulma_menu() {
          
         if ( !$parent_id ) {
             
-            // $level[$id] = $tmp;
             $menu_items[$id] = $tmp;
         } else {
 
-            // $level[$parent_id]['subs'][$id] = $tmp;
             $menu_items[$parent_id]['subs'][$id] = $tmp;
         }
 
         unset($menu_items[$k]);
     }
-
-    // foreach ($level as $key => $value) {
-        # code...
-    // }
+    echo '<pre>';
+    foreach ($menu_items as $k=>$menu_item) {
+        
+        if (isset($menu_item['subs'])) {
+            echo $menu_item['title'].' has '.count($menu_item['subs']).' children'.PHP_EOL;
+        } else {
+            echo $menu_item['title'].' has no children'.PHP_EOL;
+        }
+    }
+    echo '</pre>';
 
     // $output = '<nav class="level" role="navigation">'..'</nav>';
-    echo '<pre>';
-    // echo count($menu_items);
-    print_r($menu_items);
-    echo '</pre>';
 
     // return $output;
 }
