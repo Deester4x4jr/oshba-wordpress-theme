@@ -133,7 +133,7 @@ function bulma_menu() {
             $the_link .= '</div></div>';
         } else {
             
-            $the_link = '<div class="navbar-item"><a class="navbar-link" href="'.$menu_item['link'].'">'.$menu_item['title'].'</a></p>';
+            $the_link = '<a class="navbar-item" href="'.$menu_item['link'].'">'.$menu_item['title'].'</a>';
         }
 
         $menu_items[] = $the_link;
