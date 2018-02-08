@@ -91,25 +91,30 @@ function html5blank_nav()
 // Build Bulma Menu Level Component
 function bulma_menu() {
 
+    $count = 0;
     $level = array();
     $menu = get_term(get_nav_menu_locations()['header-menu'], 'nav_menu')->name;
     $menu_items = wp_get_nav_menu_items($menu);
 
     foreach( $menu_items as $menu_item ) {
              
-        $the_link = array(
-            'title' => $menu_item->title,
-            'link' => $menu_item->url,
-        );
+        $title = $menu_item->title;
+        $link = $menu_item->url;
+        $id = $menu_item->ID;
+        $parent_id = $menu_item->menu_item_parent;
 
-        $menu_id = $menu_item->menu_item_parent;
+        $tmp = array(
+            'title' => $title,
+            'link' => $link,
+            'order' => $count,
+        );
          
-        if ( !$menu_id ) {
+        if ( !$parent_id ) {
             
-            $level[$menu_id] = $the_link;
+            $level[$id] = $tmp;
         } else {
 
-            $level[$menu_id][] = $the_link;
+            $level[$parent_id]['subs'][$id] = $tmp;
         }
 
         // if ( $parent_id == $menu_item->menu_item_parent ) {
