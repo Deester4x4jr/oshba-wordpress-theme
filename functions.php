@@ -99,7 +99,7 @@ function bulma_menu() {
     print_r($menu_items);
     echo '</pre>';
 
-    return $output;
+    // return $output;
 }
 
 // Load HTML5 Blank scripts (header.php)
