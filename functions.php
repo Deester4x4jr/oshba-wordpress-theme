@@ -95,7 +95,9 @@ function bulma_menu() {
     $menu_items = wp_get_nav_menu_items('main_nav');
 
     // $output = '<nav class="level" role="navigation">'..'</nav>';
-    $output = '<pre>'.print_r($menu_items).'</pre>';
+    echo '<pre>';
+    print_r($menu_items);
+    echo '</pre>';
 
     return $output;
 }
