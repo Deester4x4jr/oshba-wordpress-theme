@@ -37,7 +37,7 @@
   							
   							<div class="navbar-brand">
   								<a class="navbar-item" href="https://bulma.io">
-									<img src="https://upload.wikimedia.org/wikipedia/commons/a/ab/Logo_TV_2015.png" alt="Bulma: a modern CSS framework based on Flexbox">
+									<img src="https://cohba.org/wp-content/uploads/2015/09/logo.jpg" alt="Bulma: a modern CSS framework based on Flexbox">
 								</a>
   							</div>
 
