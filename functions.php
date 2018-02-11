@@ -12,7 +12,13 @@
 
 if( function_exists('acf_add_options_page') ) {
     
-    acf_add_options_page();
+    acf_add_options_page(array(
+        'page_title'    => 'Social Media',
+        'menu_title'    => 'Social Media',
+        'menu_slug'     => 'social-media-settings',
+        'redirect'      => false,
+        'parent_slug' => 'themes.php',
+    ));
     
 }
 
