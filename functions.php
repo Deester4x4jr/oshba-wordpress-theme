@@ -17,7 +17,8 @@ if( function_exists('acf_add_options_page') ) {
         'menu_title'    => 'Social Media',
         'menu_slug'     => 'social-media-settings',
         'redirect'      => false,
-        'parent_slug' => 'themes.php',
+        'parent_slug'   => 'themes.php',
+        'position'      => '100.2',
     ));
     
 }
