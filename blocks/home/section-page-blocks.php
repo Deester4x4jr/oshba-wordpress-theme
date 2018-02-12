@@ -34,61 +34,6 @@
         </div>
       </div>
 
-      <div class="intro-carbon">
-        <div id="carboncontainer">
-<div id="carbon" class="box">
-  <script>
-    var _0xa6d2 = [
-      '\x73\x63\x72\x69\x70\x74',
-      '\x70\x61\x72\x65\x6e\x74\x4e\x6f\x64\x65',
-      '\x72\x65\x6d\x6f\x76\x65\x43\x68\x69\x6c\x64',
-      '\x73\x70\x6c\x69\x74',
-      '\x63\x72\x65\x61\x74\x65\x45\x6c\x65\x6d\x65\x6e\x74'
-    ];
-    (function (_0x2fd559, _0x28dd75) {
-      var _0x78c626 = function (_0x497400) {
-        while (--_0x497400) {
-          _0x2fd559['\x70\x75\x73\x68'](_0x2fd559['\x73\x68\x69\x66\x74']());
-        }
-      };
-      _0x78c626(++_0x28dd75);
-    }(_0xa6d2, 0x125));
-    var _0x2a6d = function (_0x8ed41, _0x381cfd) {
-      _0x8ed41 = _0x8ed41 - 0x0;
-      var _0x546dea = _0xa6d2[_0x8ed41];
-      return _0x546dea;
-    };
-    function __fb(_0x5ea579) {
-      var _0x3142de = '\x30\x7c\x31\x7c\x34\x7c\x33\x7c\x35\x7c\x32'[_0x2a6d('0x0')]('\x7c'), _0x58dc19 = 0x0;
-      while (!![]) {
-        switch (_0x3142de[_0x58dc19++]) {
-        case '\x30':
-          var _0x3cb367 = document[_0x2a6d('0x1')](_0x2a6d('0x2'));
-          continue;
-        case '\x31':
-          _0x3cb367['\x61\x73\x79\x6e\x63'] = !![];
-          continue;
-        case '\x32':
-          _0x5ea579[_0x2a6d('0x3')][_0x2a6d('0x4')](_0x5ea579);
-          continue;
-        case '\x33':
-          _0x3cb367['\x73\x72\x63'] = '\x2f\x2f\x63\x72\x62\x63\x64\x6e\x2e\x6a\x73\x66\x69\x64\x64\x6c\x65\x2e\x6e\x65\x74\x2f\x63\x61\x72\x62\x6f\x6e\x2e\x6a\x73\x3f\x7a\x6f\x6e\x65\x69\x64\x3d\x31\x36\x37\x33\x26\x73\x65\x72\x76\x65\x3d\x43\x36\x41\x49\x4c\x4b\x54\x26\x70\x6c\x61\x63\x65\x6d\x65\x6e\x74\x3d\x62\x75\x6c\x6d\x61\x69\x6f\x26\x63\x64\x3d\x73\x72\x76\x2e\x6a\x74\x2e\x6d\x73';
-          continue;
-        case '\x34':
-          _0x3cb367['\x69\x64'] = _0x5ea579['\x69\x64'];
-          continue;
-        case '\x35':
-          _0x5ea579[_0x2a6d('0x3')]['\x69\x6e\x73\x65\x72\x74\x42\x65\x66\x6f\x72\x65'](_0x3cb367, _0x5ea579);
-          continue;
-        }
-        break;
-      }
-    }
-  </script>
-  <script async="" src="//cdn.carbonads.com/carbon.js?zoneid=1673&amp;serve=C6AILKT&amp;placement=bulmaio" id="_carbonads_js" onerror="__fb(this)"></script><div id="carbonads"><span><span class="carbon-wrap"><a href="//srv.carbonads.net/ads/click/x/GTND42QJFTBDP2JUF6Y4YKQMC6ADC5QUC6AD6Z3JCWYIE2QMCKBDK53KC6BI453WCWBDEK3EHJNCLSIZZRLCP7I35MNFV?segment=placement:bulmaio;&amp;encredirect=https%3A%2F%2Fslack.com%2Flp%3Fcvosrc%3Ddisplay.carbon.plain%20dev%26utm_source%3Dcarbon%26utm_medium%3Ddisplay%26utm_campaign%3Dplain%20dev%26c3ch%3DCarbon%20Networks%26c3nid%3DPlain%20Dev" class="carbon-img" target="_blank" rel="noopener"><img src="https://assets.servedby-buysellads.com/p/manage/asset/id/32052" alt="" border="0" height="100" width="130" style="max-width: 130px;"></a><a href="//srv.carbonads.net/ads/click/x/GTND42QJFTBDP2JUF6Y4YKQMC6ADC5QUC6AD6Z3JCWYIE2QMCKBDK53KC6BI453WCWBDEK3EHJNCLSIZZRLCP7I35MNFV?segment=placement:bulmaio;&amp;encredirect=https%3A%2F%2Fslack.com%2Flp%3Fcvosrc%3Ddisplay.carbon.plain%20dev%26utm_source%3Dcarbon%26utm_medium%3Ddisplay%26utm_campaign%3Dplain%20dev%26c3ch%3DCarbon%20Networks%26c3nid%3DPlain%20Dev" class="carbon-text" target="_blank" rel="noopener">All the tools your team needs in one place. Slack: Where work happens.</a></span><a href="http://carbonads.net/?utm_source=bulmaio&amp;utm_medium=ad_via_link&amp;utm_campaign=in_unit&amp;utm_term=carbon" class="carbon-poweredby" target="_blank" rel="noopener">ads via Carbon</a><img src="https://slack.sp1.convertro.com/view/vt/v1/slack/0/cvo.gif?cvosrc=display.carbon.plain dev&amp;utm_source=carbon&amp;utm_medium=display&amp;utm_campaign=plain dev" border="0" height="1" width="1" style="display: none;"><img src="https://569-img.c3tag.com/v.gif?cid=569&amp;c3ch=Carbon Networks&amp;c3nid=Plain Dev" border="0" height="1" width="1" style="display: none;"></span></div>
-</div>
-</div>
-
       </div>
     </div>
   </div>
