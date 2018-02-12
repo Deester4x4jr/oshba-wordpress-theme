@@ -47,7 +47,7 @@
       <nav class="columns">
         <div class="column has-text-centered">
           <span class="icon is-large">
-            <i class="fas fa-child"></i>
+            <i class="fas fa-child fa-3x"></i>
           </span>
           <p class="title is-4" style="margin-top: 0.5em;"><strong>Cool Icons</strong></p>
           <p class="subtitle">With sub-text too</p>
