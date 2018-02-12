@@ -1,10 +1,10 @@
 <?php
 
-    // Facebook Header Social Menu Item
+    // Houzz Header Social Menu Item
 
-	$url = 'https://www.facebook.com/'.get_sub_field('username');
-	$icn = 'fab fa-facebook-f';
-	$msg = 'Like';
+	$url = 'https://www.houzz.com/user/'.get_sub_field('username');
+	$icn = 'fab fa-houzz';
+	$msg = 'Follow';
 	$cls = 'is-'.$network;
 
 ?>
