@@ -132,17 +132,17 @@
         <div class="tile">
           <div class="tile is-parent is-vertical">
             <article class="tile is-child is-bold notification is-primary" style="background: url(http://thaw.io/wp-content/uploads/2018/02/house-3.png); background-size:cover;">
-              <p class="title">Event 1</p>
+              <p class="title">Cool OSHBA Event</p>
               <p class="subtitle">Some info bout this event</p>
             </article>
             <article class="tile is-child is-bold notification has-text-white" style="background: url(http://thaw.io/wp-content/uploads/2018/02/house-2.png); background-size:cover;">
-              <p class="title">Event 2</p>
+              <p class="title">Home & Garden Show</p>
               <p class="subtitle">Some long info bout this event with a bunch of words that aren't really relevant.</p>
             </article>
           </div>
           <div class="tile is-parent">
             <article class="tile is-child notification is-info">
-              <p class="title">This tile</p>
+              <p class="title">This Blog</p>
               <p class="subtitle">Has an inline image</p>
               <figure class="image">
                 <img src="http://thaw.io/wp-content/uploads/2018/02/house-1.png">
