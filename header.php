@@ -43,11 +43,15 @@
 
   							<div id="main-nav" class="navbar-menu">
   								<div class="navbar-start">
-									<?php echo bulma_menu(); ?>
+									<?php echo header_nav_menu(); ?>
 								</div>
 
 								<div class="navbar-end">
-									<!-- navbar items -->
+									<div class="navbar-item">
+										<div class="field is-grouped">
+											<?php echo header_social_menu(); ?>
+										</div>
+									</div>
 								</div>
   							</div>
   							
