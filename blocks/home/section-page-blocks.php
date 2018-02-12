@@ -43,7 +43,7 @@
 
 <hr class="is-marginless">
 
-<section class="hero is-medium is-error">
+<section class="hero is-medium is-link">
   <div class="hero-body">
     <div class="container">
       <div class="columns">
