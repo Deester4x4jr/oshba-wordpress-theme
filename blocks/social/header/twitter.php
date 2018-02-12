@@ -3,7 +3,7 @@
     // Twitter Header Social Menu Item
 
 	$url = 'https://www.twitter.com/'.get_sub_field('username');
-	$icn = 'twitter-f';
+	$icn = 'twitter';
 	$msg = 'Tweet';
 
 ?>
