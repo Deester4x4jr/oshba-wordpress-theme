@@ -122,7 +122,7 @@
   </div>
 </section>
 
-<section class="section is-medium">
+<section class="section">
   <div class="container">
     <h3 class="title is-2">Tile Layout</a>
     </h3>
