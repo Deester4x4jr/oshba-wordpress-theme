@@ -39,6 +39,11 @@
   								<a class="navbar-item" href="https://bulma.io">
 									<img src="https://cohba.org/wp-content/uploads/2015/09/logo.jpg" alt="Bulma: a modern CSS framework based on Flexbox">
 								</a>
+								<button class="button navbar-burger">
+							      <span></span>
+							      <span></span>
+							      <span></span>
+							    </button>
   							</div>
 
   							<div id="main-nav" class="navbar-menu">
@@ -54,12 +59,6 @@
 									</div>
 								</div>
   							</div>
-  							
-  							<button class="button navbar-burger">
-						      <span></span>
-						      <span></span>
-						      <span></span>
-						    </button>
 					</div>
 					<!-- <nav class="level" role="navigation"> -->
 						<?php //html5blank_nav(); ?>
