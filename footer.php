@@ -20,7 +20,7 @@
 					</div>
 				</div>
 			</nav> -->
-			<div class="field is-grouped is-grouped-centered">
+			<div class="field is-grouped is-grouped-centered" style="margin-bottom: 2rem;">
         		<p class="control">
 				    <a class="button is-link is-transparent" target="_blank" href="/blog">
 				        <span>Blog</span>
@@ -45,11 +45,14 @@
 
 	        
 	        <!-- content -->
-	        <div class="content has-text-centered">
+	        <div class="content has-text-centered" style="margin-bottom: 2rem;">
 	        	<!-- Logo -->
 	        	<a class="logo" href="https://bulma.io">
-					<img src="/wp-content/uploads/2018/02/oshba-logo.png" alt="Bulma: a modern CSS framework based on Flexbox">
+					<img style="max-width: 10rem; opacity: 0.325;" src="/wp-content/uploads/2018/02/oshba-logo.png" alt="Bulma: a modern CSS framework based on Flexbox">
 				</a>
+			</div>
+
+			<div class="content has-text-centered">
 	        	<div class="field is-grouped is-grouped-centered">
 	        		<p class="control">
 					    <a class="button is-link is-facebook is-circle" target="_blank" href="https://www.facebook.com/samplePage">
