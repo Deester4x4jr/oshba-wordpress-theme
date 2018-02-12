@@ -12,37 +12,33 @@
 
 <!-- Hero Slider Section -->
 <section class="hero is-medium is-primary">
-  <div class="container">
-    <div class="slider-for">
-      <?php
+  <div class="slider-for">
+    <?php
+      
+      foreach ($posts as $post) {
         
-        foreach ($posts as $post) {
-          
-          setup_postdata($post);
+        setup_postdata($post);
 
-          echo '<div><a href="'.get_permalink().'"><img src="'.get_the_post_thumbnail_url(get_the_ID(),'full').'" /></a></div>';
+        echo '<div><a href="'.get_permalink().'"><img src="'.get_the_post_thumbnail_url(get_the_ID(),'full').'" /></a></div>';
 
-          wp_reset_postdata();
-        }
+        wp_reset_postdata();
+      }
 
-      ?>
-    </div>
+    ?>
   </div>
-  <div class="container">
-    <div class="slider-nav">
-      <?php
+  <div class="slider-nav">
+    <?php
+      
+      foreach ($posts as $post) {
         
-        foreach ($posts as $post) {
-          
-          setup_postdata($post);
+        setup_postdata($post);
 
-          echo '<div><a href="'.get_permalink().'"><img src="'.get_the_post_thumbnail_url(get_the_ID(),'full').'" /></a></div>';
+        echo '<div><a href="'.get_permalink().'"><img src="'.get_the_post_thumbnail_url(get_the_ID(),'full').'" /></a></div>';
 
-          wp_reset_postdata();
-        }
+        wp_reset_postdata();
+      }
 
-      ?>
-    </div>
+    ?>
   </div>
 
   <!-- <div class="hero-body">
