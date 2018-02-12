@@ -32,7 +32,7 @@
         
         foreach ($posts as $post) {
           
-          setup_postdata();
+          setup_postdata($post);
 
           echo '<div><a href="'.get_permalink().'"><img src="'.get_the_post_thumbnail_url(get_the_ID(),'full').'" /></a></div>';
 
