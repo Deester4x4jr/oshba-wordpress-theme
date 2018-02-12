@@ -25,7 +25,7 @@
           <div id="introVideo" class="intro-video has-loaded">
             <div class="intro-spinner"></div>
             <div class="intro-iframe">
-              <iframe id="introIframe" src="https://www.youtube.com/watch?v=hefs-tGUyIc" width="640" height="338" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-vimeo-tracked="true" data-ready="true"></iframe>
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/hefs-tGUyIc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
           </div>
           <p class="intro-author">
