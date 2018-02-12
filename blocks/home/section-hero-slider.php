@@ -19,7 +19,7 @@
         
         setup_postdata($post);
 
-        echo '<a href="'.get_permalink().'"><img src="'.get_the_post_thumbnail_url(get_the_ID(),'full').'" /></a>';
+        echo '<div><h1>Some Header</h1><h2>Some Sub-header</h2><a href="'.get_permalink().'"><img src="'.get_the_post_thumbnail_url(get_the_ID(),'full').'" /></a></div>';
 
         wp_reset_postdata();
       }
