@@ -132,12 +132,12 @@
         <div class="tile">
           <div class="tile is-parent is-vertical">
             <article class="tile faded-tile-blue is-child is-bold notification is-primary" style="background: url(http://thaw.io/wp-content/uploads/2018/02/house-3.png); background-size:cover;">
-              <p class="title">Cool OSHBA Event</p>
-              <p class="subtitle">Some info bout this event</p>
+              <p class="title" style="position: relative;z-index: 1;">Cool OSHBA Event</p>
+              <p class="subtitle" style="position: relative;z-index: 1;">Some info bout this event</p>
             </article>
             <article class="tile faded-tile-green is-child is-bold notification has-text-white" style="background: url(http://thaw.io/wp-content/uploads/2018/02/house-2.png); background-size:cover;">
-              <p class="title">Home & Garden Show</p>
-              <p class="subtitle">Some long info bout this event with a bunch of words that aren't really relevant.</p>
+              <p class="title" style="position: relative;z-index: 1;">Home & Garden Show</p>
+              <p class="subtitle" style="position: relative;z-index: 1;">Some long info bout this event with a bunch of words that aren't really relevant.</p>
             </article>
           </div>
           <div class="tile is-parent">
