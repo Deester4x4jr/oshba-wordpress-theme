@@ -24,7 +24,7 @@
         </div>
 
         <div class="column has-text-right">
-          <div style="box-shadow: 0 0 20px black;" id="introVideo" class="intro-video">
+          <div style="box-shadow: 0 0 50px -10px black;" id="introVideo" class="intro-video">
             <div class="intro-spinner"></div>
             <div class="intro-iframe">
               <iframe width="640" height="380" src="https://www.youtube.com/embed/hefs-tGUyIc?modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
@@ -101,7 +101,7 @@
       <div class="columns">
 
         <div class="column is-half has-text-centered">
-			<img style="max-width:80%;" src="/wp-content/uploads/2018/02/house-2.png" />
+			<img style="max-width:80%;box-shadow: 0 0 50px -10px black;" src="/wp-content/uploads/2018/02/house-2.png" />
 		</div>
 
 		<div class="column is-content is-half">
