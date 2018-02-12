@@ -43,8 +43,8 @@
 
 <hr class="is-marginless">
 
-<section class="hero is-medium intro">
-  <div class="hero-body is-primary">
+<section class="hero is-medium is-error">
+  <div class="hero-body">
     <div class="container">
       <div class="columns">
         <div class="column has-text-centered is-half is-offset-one-quarter is-content">
