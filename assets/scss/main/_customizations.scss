@@ -16,6 +16,9 @@ $facebook-invert: findColorInvert($facebook);
 $instagram: #E4405F;
 $instagram-invert: findColorInvert($instagram);
 
+$houzz: #7AC143;
+$houzz-invert: findColorInvert($houzz);
+
 // Post-Customize Steps
 @import "../../bower/bulma/sass/utilities/derived-variables.sass";
 
@@ -24,6 +27,7 @@ $addColors: (
   "linkedin": ($linkedin, $linkedin-invert),
   "facebook": ($facebook, $facebook-invert),
   "instagram": ($instagram, $instagram-invert),
+  "houzz": ($houzz, $houzz-invert),
 );
 
 $colors: map-merge($colors, $addColors);
