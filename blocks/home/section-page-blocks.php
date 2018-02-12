@@ -24,7 +24,7 @@
         </div>
 
         <div class="column has-text-right">
-          <div id="introVideo" class="intro-video has-loaded">
+          <div id="introVideo" class="intro-video">
             <div class="intro-spinner"></div>
             <div class="intro-iframe">
               <iframe width="640" height="380" src="https://www.youtube.com/embed/hefs-tGUyIc?modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
@@ -41,7 +41,42 @@
   </div>
 </section>
 
-<hr class="is-marginless">
+<section class="hero is-info">
+  <div class="hero-body">
+    <div class="container">
+      <nav class="columns">
+        <div class="column has-text-centered">
+          <span class="icon is-large">
+            <i class="fas fa-child fa-3x"></i>
+          </span>
+          <p class="title is-4" style="margin-top: 0.5em;"><strong>Cool Icons</strong></p>
+          <p class="subtitle">With sub-text too</p>
+        </div>
+        <div class="column has-text-centered">
+          <span class="icon is-large">
+            <i class="fas fa-wrench fa-3x"></i>
+          </span>
+          <p class="title is-4" style="margin-top: 0.5em;"><strong>Strong Imagery</strong></p>
+          <p class="subtitle">Convey your message</p>
+        </div>
+        <div class="column has-text-centered">
+          <span class="icon is-large">
+            <i class="fas fa-users fa-3x"></i>
+          </span>
+          <p class="title is-4" style="margin-top: 0.5em;"><strong>Speak Directly</strong></p>
+          <p class="subtitle">To your customers</p>
+        </div>
+        <div class="column has-text-centered">
+          <span class="icon is-large">
+            <i class="fas fa-fighter-jet fa-3x fa-spin"></i>
+          </span>
+          <p class="title is-4" style="margin-top: 0.5em;"><strong>Plus Animations</strong></p>
+          <p class="subtitle">To really make it pop</p>
+        </div>
+      </nav>
+    </div>
+  </div>
+</section>
 
 <section class="hero is-medium is-link is-bold">
   <div class="hero-body">
@@ -56,6 +91,45 @@
         	<p>Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="is-marginless">
+
+<section class="hero is-medium intro">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns">
+
+        <div class="column">
+			</div>
+				<img src="/wp-content/uploads/2018/02/house-2.png" />
+			</div>
+		</div>
+
+		<div class="column is-content">
+          <div class="content">
+            <h1 class="title">COHBA: The Trusted Source for Everything ‘HOME’</h1>
+
+            <p>The home building business is based on trust. Doing business with a member of the Central Oklahoma Home Builders Association (COHBA), means you are dealing with someone who stands behind the products they sell. That’s something you can build on.</p>
+
+            <p>Central Oklahoma Home Builders Association is a non-profit, professional organization that promotes the home building industry and its members by connecting builders, developers, associates and home buyers. Since our inception in 1943, COHBA has become Oklahoma’s strongest home building association. We are also affiliated with the National Association of Home Builders.</p>
+
+            <nav class="intro-buttons">
+              <a class="button is-primary is-large" href="#">
+                <span>
+                  <strong>Learn More</strong>
+                </span>
+              </a>
+              <a class="button is-light is-large" href="#">
+                <span>Find Members</span>
+              </a>
+            </nav>
+          </div>
+        </div>
+
       </div>
     </div>
   </div>
@@ -114,41 +188,4 @@
       </div>
     </div>
     </div>
-</section>
-
-<section class="hero is-info">
-  <div class="hero-body">
-    <div class="container">
-      <nav class="columns">
-        <div class="column has-text-centered">
-          <span class="icon is-large">
-            <i class="fas fa-child fa-3x"></i>
-          </span>
-          <p class="title is-4" style="margin-top: 0.5em;"><strong>Cool Icons</strong></p>
-          <p class="subtitle">With sub-text too</p>
-        </div>
-        <div class="column has-text-centered">
-          <span class="icon is-large">
-            <i class="fas fa-wrench fa-3x"></i>
-          </span>
-          <p class="title is-4" style="margin-top: 0.5em;"><strong>Strong Imagery</strong></p>
-          <p class="subtitle">Convey your message</p>
-        </div>
-        <div class="column has-text-centered">
-          <span class="icon is-large">
-            <i class="fas fa-users fa-3x"></i>
-          </span>
-          <p class="title is-4" style="margin-top: 0.5em;"><strong>Speak Directly</strong></p>
-          <p class="subtitle">To your customers</p>
-        </div>
-        <div class="column has-text-centered">
-          <span class="icon is-large">
-            <i class="fas fa-fighter-jet fa-3x fa-spin"></i>
-          </span>
-          <p class="title is-4" style="margin-top: 0.5em;"><strong>Plus Animations</strong></p>
-          <p class="subtitle">To really make it pop</p>
-        </div>
-      </nav>
-    </div>
-  </div>
 </section>
