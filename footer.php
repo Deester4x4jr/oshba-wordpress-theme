@@ -18,9 +18,9 @@
 					            <i class="fab fa-facebook-f"></i>
 					        </span> -->
 					        <span class="icon is-medium">
-								<span class="fa-stack">
+								<span class="fa-stack is-facebook">
 									<i class="fas fa-circle fa-stack-2x"></i>
-									<i class="fab fa-facebook-f fa-stack-1x is-facebook"></i>
+									<i class="fab fa-facebook-f fa-stack-1x"></i>
 								</span>
 							</span>
 					    </a>
