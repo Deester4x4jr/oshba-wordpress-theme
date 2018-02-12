@@ -13,14 +13,14 @@
 	            </p>
 	        	<div class="field is-grouped is-grouped-centered">
 	        		<p class="control">
-					    <a class="button is-link is-rounded" target="_blank" href="https://www.facebook.com/samplePage">
+					    <a class="button is-link" target="_blank" href="https://www.facebook.com/samplePage">
 					        <!-- <span class="icon">
 					            <i class="fab fa-facebook-f"></i>
 					        </span> -->
 					        <span class="icon is-medium">
 								<span class="fa-stack">
 									<i class="fas fa-circle fa-stack-2x"></i>
-									<i class="fab fa-facebook-f fa-stack-1x fa-inverse is-facebook"></i>
+									<i class="fab fa-facebook-f fa-stack-1x is-facebook"></i>
 								</span>
 							</span>
 					    </a>
