@@ -1,0 +1,29 @@
+// Pre-Customization Steps
+@import "../../bower/bulma/sass/utilities/initial-variables";
+@import "../../bower/bulma/sass/utilities/functions";
+
+// Custom Colors
+
+$linkedin: #0077B5;
+$linkedin-invert: findColorInvert($linkedin);
+
+$twitter: #55ACEE;
+$twitter-invert: findColorInvert($twitter);
+
+$facebook: #3B5999;
+$facebook-invert: findColorInvert($facebook);
+
+$instagram: #E4405F;
+$instagram-invert: findColorInvert($instagram);
+
+// Post-Customize Steps
+@import "../sass/utilities/derived-variables.sass";
+
+$addColors: (
+  "twitter":($twitter, $twitter-invert),
+  "linkedin": ($linkedin, $linkedin-invert),
+  "facebook": ($facebook, $facebook-invert),
+  "instagram": ($instagram, $instagram-invert),
+);
+
+$colors: map-merge($colors, $addColors);
