@@ -2,9 +2,9 @@
 
     // Instagram Header Social Menu Item
 
-	$url = 'https://www.facebook.com/'.get_sub_field('username');
-	$icn = 'facebook-f';
-	$msg = 'Like Us';
+	$url = 'https://www.instagram.com/'.get_sub_field('username');
+	$icn = 'instagram-f';
+	$msg = 'Follow';
 
 ?>
 
