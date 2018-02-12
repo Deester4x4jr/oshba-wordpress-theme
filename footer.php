@@ -8,9 +8,25 @@
 	        
 	        <!-- content -->
 	        <div class="content has-text-centered">
-	            <p>
+	        	<p>
 	                <strong>Bulma</strong> by <a href="https://jgthms.com"> Jeremy Thomas</a>. The source code is licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
 	            </p>
+	        	<div class="field is-grouped is-grouped-centered">
+	        		<p class="control">
+					    <a class="button is-link is-facebook is-rounded" target="_blank" href="https://www.facebook.com/samplePage">
+					        <span class="icon">
+					            <i class="fab fa-facebook-f"></i>
+					        </span>
+					    </a>
+					</p>
+					<p class="control">
+					    <a class="button is-link is-instagram is-rounded" target="_blank" href="https://www.instagram.com/samplePage">
+					        <span class="icon">
+					            <i class="fab fa-instagram"></i>
+					        </span>
+					    </a>
+					</p>
+	        	</div>
 	        </div>
 	        <!-- /content -->
 	    
