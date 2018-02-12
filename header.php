@@ -23,8 +23,8 @@
 		<!-- <meta property="og:image" content="http://www.thaw.io/wp-content/uploads/2018/02/og-image-horizontal.png"> -->
 
 		<!-- Pinterest Sharing Option (Vertical Orientation) -->
-		<meta property="og:image" content="http://www.thaw.io/wp-content/uploads/2018/02/og-image-vertical.png">
 		<meta property="og:image" content="http://www.thaw.io/wp-content/uploads/2018/02/og-image-square.png">
+		<meta property="og:image" content="http://www.thaw.io/wp-content/uploads/2018/02/og-image-vertical.png">
 
 		<!-- Twitter Card Sharing -->
 		<meta name="twitter:card" content="summary_large_image" />
