@@ -8,9 +8,11 @@
 	        
 	        <!-- content -->
 	        <div class="content has-text-centered">
-	        	<p>
-	                <strong>Bulma</strong> by <a href="https://jgthms.com"> Jeremy Thomas</a>. The source code is licensed <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-	            </p>
+	        	<div class="navbar-brand">
+					<a class="navbar-item" href="https://bulma.io">
+						<img src="https://cohba.org/wp-content/uploads/2015/09/logo.jpg" alt="Bulma: a modern CSS framework based on Flexbox">
+					</a>
+				</div>
 	        	<div class="field is-grouped is-grouped-centered">
 	        		<p class="control">
 					    <a class="button is-link is-facebook is-circle" target="_blank" href="https://www.facebook.com/samplePage">
