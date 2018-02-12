@@ -12,14 +12,14 @@
 
 <!-- Hero Slider Section -->
 <section class="hero">
-  <div class="hero-body hero-slider columns is-gapless">
+  <div class="hero-body hero-slider">
     <?php
       
       foreach ($posts as $post) {
         
         setup_postdata($post);
 
-        echo '<div class="column is-12"><a href="'.get_permalink().'"><img src="'.get_the_post_thumbnail_url(get_the_ID(),'full').'" /></a></div>';
+        echo '<a href="'.get_permalink().'"><img src="'.get_the_post_thumbnail_url(get_the_ID(),'full').'" /></a>';
 
         wp_reset_postdata();
       }
