@@ -82,7 +82,7 @@
   <div class="container">
     <h3 class="title is-2">Tile Layout</a>
     </h3>
-    <h4 class="subtitle is-4">A single element for a Metro UI-style CSS grid</h4>
+    <h4 class="subtitle is-4">Events, Resources, and Blog Collections are styled like this</h4>
     <div class="tile is-ancestor">
       <div class="tile is-vertical is-8">
         <div class="tile">
