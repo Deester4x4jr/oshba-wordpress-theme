@@ -29,6 +29,9 @@ CSS file.
 @import "../../bower/slick-carousel/slick/slick.css";
 @import "../../bower/slick-carousel/slick/slick-theme.css";
 
+// Import Slick overrides
+@import "slick-overrides"
+
 // Import local Settings
 // @import "settings";
 
