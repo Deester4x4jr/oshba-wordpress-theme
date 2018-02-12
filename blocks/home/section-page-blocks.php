@@ -104,9 +104,7 @@
       <div class="columns">
 
         <div class="column is-half">
-			</div>
-				<img style="max-width:80%;" src="/wp-content/uploads/2018/02/house-2.png" />
-			</div>
+			<img style="max-width:80%;" src="/wp-content/uploads/2018/02/house-2.png" />
 		</div>
 
 		<div class="column is-content is-half">
