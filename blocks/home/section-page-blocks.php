@@ -41,7 +41,7 @@
   </div>
 </section>
 
-<section class="hero is-warn">
+<section class="hero is-info">
   <div class="hero-body">
     <div class="container">
       <nav class="columns">
