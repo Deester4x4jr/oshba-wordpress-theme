@@ -20,7 +20,7 @@
 					        <span class="icon is-medium">
 								<span class="fa-stack">
 									<i class="fas fa-circle fa-stack-2x is-facebook"></i>
-									<i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+									<i class="fab fa-facebook-f fa-stack-1x"></i>
 								</span>
 							</span>
 					    </a>
