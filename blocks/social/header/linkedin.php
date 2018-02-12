@@ -1,8 +1,10 @@
 <?php
 
-	$url = 'https://www.facebook.com/'.get_sub_field('username');
-	$icn = 'facebook-f';
-	$msg = 'Like Us';
+    // LinkedIn Header Social Menu Item
+
+	$url = 'https://www.linkedin.com/in/'.get_sub_field('username');
+	$icn = 'linkedin-f';
+	$msg = 'Connect';
 
 ?>
 
