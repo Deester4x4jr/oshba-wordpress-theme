@@ -5,6 +5,7 @@
 	    'post_type'      => 'sponsor',
 	    'orderby'        => 'title',
 	    'order'          => 'ASC',
+	    'numberposts'	 =>	'-1'
 	));
 
 ?>
@@ -33,7 +34,7 @@
   jQuery(document).ready(function($) {
     
     $('.sponsors').slick({
-    	slidesToShow: 6,
+    	slidesToShow: 5,
 		slidesToScroll: 1,
 		autoplay: true,
 		autoplaySpeed: 2000,
