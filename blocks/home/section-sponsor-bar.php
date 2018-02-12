@@ -33,10 +33,11 @@
   jQuery(document).ready(function($) {
     
     $('.sponsors').slick({
-      slidesToShow: 5,
-      slidesToScroll: 1,
-      autoPlay: true,
-      autoplaySpeed: 1000,
+    	slidesToShow: 3,
+		slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 500,
+		pauseOnHover: true,
     });
 
   });
