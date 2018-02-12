@@ -103,13 +103,13 @@
     <div class="container">
       <div class="columns">
 
-        <div class="column">
+        <div class="column is-half">
 			</div>
 				<img src="/wp-content/uploads/2018/02/house-2.png" />
 			</div>
 		</div>
 
-		<div class="column is-content">
+		<div class="column is-content is-half">
           <div class="content">
             <h1 class="title">COHBA: The Trusted Source for Everything ‘HOME’</h1>
 
