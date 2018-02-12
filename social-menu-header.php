@@ -12,7 +12,7 @@
 
             the_row();
 
-            $network = the_sub_field('network');
+            $network = get_sub_field('network');
             $block = "blocks/social/header/". $network .".php";
             include(locate_template($block));
 
