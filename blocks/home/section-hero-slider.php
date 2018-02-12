@@ -11,8 +11,8 @@
 ?>
 
 <!-- Hero Slider Section -->
-<section class="hero is-medium">
-  <div class="hero-body hero-slider columns">
+<section class="hero">
+  <div class="hero-body hero-slider columns is-gapless">
     <?php
       
       foreach ($posts as $post) {
