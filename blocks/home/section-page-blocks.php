@@ -46,29 +46,14 @@
 <section class="hero is-medium intro">
   <div class="hero-body">
     <div class="container">
-      <div class="columns">
-      	<div class="column is-image">
-          <
-        </div>
-      </div>
-        <div class="column is-content has-text-right is-primary">
+      <div class="columns is-primary">
+        <div class="column has-text-centered is-half is-content">
           <div class="content">
             <h1 class="title">Custom Backgrounds for sections</h1>
 
-            <p>The home building business is based on trust. Doing business with a member of the Central Oklahoma Home Builders Association (COHBA), means you are dealing with someone who stands behind the products they sell. That’s something you can build on.</p>
+            <p>Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Integer posuere erat a ante venenatis dapibus posuere velit aliquet. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur blandit tempus porttitor. Donec ullamcorper nulla non metus auctor fringilla. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 
-            <p>Central Oklahoma Home Builders Association is a non-profit, professional organization that promotes the home building industry and its members by connecting builders, developers, associates and home buyers. Since our inception in 1943, COHBA has become Oklahoma’s strongest home building association. We are also affiliated with the National Association of Home Builders.</p>
-
-            <nav class="intro-buttons">
-              <a class="button is-primary is-large" href="#">
-                <span>
-                  <strong>Learn More</strong>
-                </span>
-              </a>
-              <a class="button is-light is-large" href="#">
-                <span>Find Members</span>
-              </a>
-            </nav>
+        	<p>Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum. Vestibulum id ligula porta felis euismod semper. Aenean lacinia bibendum nulla sed consectetur. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
           </div>
         </div>
       </div>
