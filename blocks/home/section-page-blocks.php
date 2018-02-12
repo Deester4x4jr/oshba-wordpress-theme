@@ -105,7 +105,7 @@
 
         <div class="column is-half">
 			</div>
-				<img src="/wp-content/uploads/2018/02/house-2.png" />
+				<img style="max-width:80%;" src="/wp-content/uploads/2018/02/house-2.png" />
 			</div>
 		</div>
 
@@ -116,7 +116,7 @@
             <p>The home building business is based on trust. Doing business with a member of the Central Oklahoma Home Builders Association (COHBA), means you are dealing with someone who stands behind the products they sell. That’s something you can build on.</p>
 
             <p>Central Oklahoma Home Builders Association is a non-profit, professional organization that promotes the home building industry and its members by connecting builders, developers, associates and home buyers. Since our inception in 1943, COHBA has become Oklahoma’s strongest home building association. We are also affiliated with the National Association of Home Builders.</p>
-            
+
           </div>
         </div>
 
