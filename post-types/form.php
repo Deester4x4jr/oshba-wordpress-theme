@@ -36,4 +36,4 @@ function post_type_event(){
 		)
 	);
 
-} add_action( 'init', 'post_type_event' );
+} // add_action( 'init', 'post_type_event' );
