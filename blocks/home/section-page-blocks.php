@@ -131,7 +131,7 @@
       <div class="tile is-vertical is-8">
         <div class="tile">
           <div class="tile is-parent is-vertical">
-            <article class="tile is-child is-bold notification is-primary" style="background: url(http://thaw.io/wp-content/uploads/2018/02/house-3.png); background-size:cover;">
+            <article class="tile faded-tile is-child is-bold notification is-primary" style="background: url(http://thaw.io/wp-content/uploads/2018/02/house-3.png); background-size:cover;">
               <p class="title">Cool OSHBA Event</p>
               <p class="subtitle">Some info bout this event</p>
             </article>
