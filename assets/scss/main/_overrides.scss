@@ -35,14 +35,14 @@ $navbar-item-img-max-height: 3rem;
     opacity: 0.75;
 }
 
-.hero .hero-slider .slick-slide:before:nth-of-type(2) {
-	background: #0072ff;
+.hero .hero-slider .slick-slide:nth-of-type(2):before {
+	background: #00ffb8;
 }
 
-.hero .hero-slider .slick-slide:before:nth-of-type(3) {
-	// background: 
+.hero .hero-slider .slick-slide:nth-of-type(3):before {
+	background: #9e7500;
 }
 
-.hero .hero-slider .slick-slide:before:nth-of-type(4) {
-	// background: 
+.hero .hero-slider .slick-slide:nth-of-type(4):before:nth-of-type(4) {
+	background: #2e009e;
 }
