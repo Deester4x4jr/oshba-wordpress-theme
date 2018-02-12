@@ -403,6 +403,9 @@ template {
 [hidden] {
   display: none; }
 
+.button.is-circle {
+  border-radius: 100%; }
+
 /*! bulma.io v0.6.2 | MIT License | github.com/jgthms/bulma */
 @-webkit-keyframes spinAround {
   from {
