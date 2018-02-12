@@ -2,6 +2,7 @@
 
 	$parts = array(
 		'Hero Slider'		=>	'hero-slider',
+		'Page Blocks'		=>	'page-blocks',
 		'Sponsor Bar'		=>	'sponsor-bar',
 	);
 
