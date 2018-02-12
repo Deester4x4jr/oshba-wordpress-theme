@@ -2,6 +2,7 @@
 
 	$parts = array(
 		'Hero Slider'		=>	'hero-slider',
+		'Sponsor Bar'		=>	'sponsor-bar',
 	);
 
 	foreach ($parts as $part=>$slug) {
