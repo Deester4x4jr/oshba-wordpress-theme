@@ -51,7 +51,7 @@
           </span>
           <p class="title is-4" style="margin-top: 0.5em;"><strong>Cool Icons</strong></p>
           <p class="subtitle">With sub-text too</p>
-        </a>
+        </div>
         <a class="column has-text-centered" href="https://bulma.io/documentation/overview/modular/">
           <span class="icon is-large">
             <i class="fas fa-3x fa-cubes"></i>
