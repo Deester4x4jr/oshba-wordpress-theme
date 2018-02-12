@@ -98,30 +98,30 @@
           </div>
           <div class="tile is-parent">
             <article class="tile is-child notification is-info">
-              <p class="title">Middle tile</p>
-              <p class="subtitle">With an image</p>
+              <p class="title">This tile</p>
+              <p class="subtitle">Has an inline image</p>
               <figure class="image is-4by3">
-                <img src="https://bulma.io/images/placeholders/640x480.png">
+                <img src="http://thaw.io/wp-content/uploads/2018/02/house-1.png">
               </figure>
             </article>
           </div>
         </div>
         <div class="tile is-parent">
           <article class="tile is-child notification is-danger">
-            <p class="title">Wide tile</p>
-            <p class="subtitle">Aligned with the right tile</p>
+            <p class="title">Tiles can be very wide</p>
+            <p class="subtitle">With a ton of text</p>
             <div class="content">
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ornare magna eros, eu pellentesque tortor vestibulum ut. Maecenas non massa sem. Etiam finibus odio quis feugiat facilisis.</p>
+              <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Nullam quis risus eget urna mollis ornare vel eu leo. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
             </div>
           </article>
         </div>
       </div>
       <div class="tile is-parent">
         <article class="tile is-child notification is-success">
-          <p class="title">Tall tile</p>
-          <p class="subtitle">With even more content</p>
+          <p class="title">Tiles can be very tall</p>
+          <p class="subtitle">With even more text</p>
           <div class="content">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam semper diam at erat pulvinar, at pulvinar felis blandit. Vestibulum volutpat tellus diam, consequat gravida libero rhoncus ut. Morbi maximus, leo sit amet vehicula eleifend, nunc dui porta orci, quis semper odio felis ut quam.</p>
+            <p>Maecenas faucibus mollis interdum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sed odio dui.</p>
             <p>Suspendisse varius ligula in molestie lacinia. Maecenas varius eget ligula a sagittis. Pellentesque interdum, nisl nec interdum maximus, augue diam porttitor lorem, et sollicitudin felis neque sit amet erat. Maecenas imperdiet felis nisi, fringilla luctus felis hendrerit sit amet. Aenean vitae gravida diam, finibus dignissim turpis. Sed eget varius ligula, at volutpat tortor.</p>
             <p>Integer sollicitudin, tortor a mattis commodo, velit urna rhoncus erat, vitae congue lectus dolor consequat libero. Donec leo ligula, maximus et pellentesque sed, gravida a metus. Cras ullamcorper a nunc ac porta. Aliquam ut aliquet lacus, quis faucibus libero. Quisque non semper leo.</p>
           </div>
