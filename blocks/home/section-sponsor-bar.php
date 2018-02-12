@@ -36,7 +36,7 @@
       slidesToShow: 5,
       slidesToScroll: 1,
       autoPlay: true,
-      speed: 300,
+      autoplaySpeed: 1000,
       pauseOnHover: true,
       inifite: true,
     });
