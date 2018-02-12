@@ -169,6 +169,45 @@ function header_nav_menu() {
     return $output;
 }
 
+// Build Footer Nav Menu Component
+function footer_nav_menu() {
+
+    $menu = get_term(get_nav_menu_locations()['extra-menu'], 'nav_menu')->name;
+    $menu_items = wp_get_nav_menu_items($menu);
+
+    foreach( $menu_items as $k=>$menu_item ) {
+             
+        $title = $menu_item->title;
+        $link = $menu_item->url;
+
+        $tmp = array(
+            'title' => $title,
+            'link' => $link,
+        );
+
+        $menu_items[$id] = $tmp;
+
+        unset($menu_items[$k]);
+    }
+    
+    foreach ($menu_items as $k=>$menu_item) {
+        
+        $the_link = '<a class="navbar-item" href="'.$menu_item['link'].'">'.$menu_item['title'].'</a>';
+
+        $menu_items[] = $the_link;
+        unset($menu_items[$k]);
+    }
+
+    foreach ($menu_items as $k=>$item) {
+
+        $output .= $item;
+
+        unset($menu_items[$k]);
+    }
+
+    return $output;
+}
+
 // Load HTML5 Blank scripts (header.php)
 function html5blank_header_scripts()
 {
