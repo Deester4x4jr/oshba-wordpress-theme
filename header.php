@@ -32,7 +32,7 @@
 			<header class="header clear" role="banner">
 
 					<!-- nav -->
-					<nav id="navbar" class="navbar is-fixed-top is-bold" role="navigation" aria-label="main navigation">
+					<nav id="navbar" class="navbar is-fixed-top" role="navigation" aria-label="main navigation">
 						<div class="container">
   							
   							<div class="navbar-brand">
