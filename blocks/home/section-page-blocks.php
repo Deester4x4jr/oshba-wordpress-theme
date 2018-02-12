@@ -38,42 +38,7 @@
   </div>
 </section>
 
-<section class="hero is-info">
-  <div class="hero-body">
-    <div class="container">
-      <nav class="columns">
-        <div class="column has-text-centered">
-          <span class="icon is-large">
-            <i class="fas fa-child fa-3x"></i>
-          </span>
-          <p class="title is-4" style="margin-top: 0.5em;"><strong>Cool Icons</strong></p>
-          <p class="subtitle">With sub-text too</p>
-        </div>
-        <div class="column has-text-centered">
-          <span class="icon is-large">
-            <i class="fas fa-wrench fa-3x"></i>
-          </span>
-          <p class="title is-4" style="margin-top: 0.5em;"><strong>Strong Imagery</strong></p>
-          <p class="subtitle">Convey your message</p>
-        </div>
-        <div class="column has-text-centered">
-          <span class="icon is-large">
-            <i class="fas fa-users fa-3x"></i>
-          </span>
-          <p class="title is-4" style="margin-top: 0.5em;"><strong>Speak Directly</strong></p>
-          <p class="subtitle">To your customers</p>
-        </div>
-        <div class="column has-text-centered">
-          <span class="icon is-large">
-            <i class="fas fa-fighter-jet fa-3x fa-spin"></i>
-          </span>
-          <p class="title is-4" style="margin-top: 0.5em;"><strong>Plus Animations</strong></p>
-          <p class="subtitle">To really make it pop</p>
-        </div>
-      </nav>
-    </div>
-  </div>
-</section>
+<hr class="is-marginless" >
 
 <section class="hero is-medium is-link is-bold">
   <div class="hero-body">
@@ -120,7 +85,42 @@
   </div>
 </section>
 
-<hr class="is-marginless">
+<section class="hero is-info">
+  <div class="hero-body">
+    <div class="container">
+      <nav class="columns">
+        <div class="column has-text-centered">
+          <span class="icon is-large">
+            <i class="fas fa-child fa-3x"></i>
+          </span>
+          <p class="title is-4" style="margin-top: 0.5em;"><strong>Cool Icons</strong></p>
+          <p class="subtitle">With sub-text too</p>
+        </div>
+        <div class="column has-text-centered">
+          <span class="icon is-large">
+            <i class="fas fa-wrench fa-3x"></i>
+          </span>
+          <p class="title is-4" style="margin-top: 0.5em;"><strong>Strong Imagery</strong></p>
+          <p class="subtitle">Convey your message</p>
+        </div>
+        <div class="column has-text-centered">
+          <span class="icon is-large">
+            <i class="fas fa-users fa-3x"></i>
+          </span>
+          <p class="title is-4" style="margin-top: 0.5em;"><strong>Speak Directly</strong></p>
+          <p class="subtitle">To your customers</p>
+        </div>
+        <div class="column has-text-centered">
+          <span class="icon is-large">
+            <i class="fas fa-fighter-jet fa-3x fa-spin"></i>
+          </span>
+          <p class="title is-4" style="margin-top: 0.5em;"><strong>Plus Animations</strong></p>
+          <p class="subtitle">To really make it pop</p>
+        </div>
+      </nav>
+    </div>
+  </div>
+</section>
 
 <section class="section is-medium">
   <div class="container">
