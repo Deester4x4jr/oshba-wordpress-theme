@@ -41,7 +41,7 @@
 					    </a>
 					</p>
 	        	</div>
-	        	<p>Copyright &copy; 2017 OSHBA. All Rights Reserved</p>
+	        	<p>Copyright &copy; 2017 OSHBA - All Rights Reserved</p>
 	        </div>
 	        <!-- /content -->
 	    
