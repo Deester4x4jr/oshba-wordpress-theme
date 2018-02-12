@@ -1,9 +1,9 @@
 <section class="hero is-medium intro">
   <div class="hero-body">
     <div class="container">
-      <div class="intro-columns">
-        <div class="intro-column is-content">
-          <div class="intro-content">
+      <div class="columns">
+        <div class="column is-content">
+          <div class="content">
             <h1 class="title intro-title">
               <strong>Bulma</strong> is a free and open source <strong>CSS</strong> framework based on <strong>Flexbox</strong>.
             </h1>
@@ -34,7 +34,7 @@
           </div>
         </div>
 
-        <div class="intro-column is-video">
+        <div class="column is-video">
           <div id="introVideo" class="intro-video has-loaded">
             <div class="intro-spinner"></div>
             <div class="intro-iframe">
