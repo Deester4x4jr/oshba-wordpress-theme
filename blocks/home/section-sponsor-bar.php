@@ -37,6 +37,7 @@
       slidesToScroll: 1,
       speed: 300,
       pauseOnHover: true,
+      inifite: true,
     });
 
   });
