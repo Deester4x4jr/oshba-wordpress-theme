@@ -9,7 +9,7 @@
 ?>
 
 <p class="control">
-    <a class="is-secondary button" target="_blank" href="<?php echo $url; ?>">
+    <a class="button is-link" target="_blank" href="<?php echo $url; ?>">
         <span class="icon">
             <i class="fab <?php echo $icn; ?>"></i>
         </span>
