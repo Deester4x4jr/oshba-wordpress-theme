@@ -11,7 +11,7 @@
 ?>
 
 <!-- Sponsor Slider Section -->
-<section>
+<section style="margin-top: -4rem;margin-bottom: 6rem;">
   <div class="slider sponsors">
     <?php
       
