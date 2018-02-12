@@ -52,27 +52,27 @@
           <p class="title is-4" style="margin-top: 0.5em;"><strong>Cool Icons</strong></p>
           <p class="subtitle">With sub-text too</p>
         </div>
-        <a class="column has-text-centered" href="https://bulma.io/documentation/overview/modular/">
+        <div class="column has-text-centered">
           <span class="icon is-large">
-            <i class="fas fa-3x fa-cubes"></i>
+            <i class="fas fa-wrench fa-3x"></i>
           </span>
-          <p class="title is-4" style="margin-top: 0.5em;"><strong>Modular</strong></p>
-          <p class="subtitle">Just import what you <strong>need</strong></p>
-        </a>
-        <a class="column has-text-centered" href="https://bulma.io/documentation/columns/basics/">
+          <p class="title is-4" style="margin-top: 0.5em;"><strong>Strong Imagery</strong></p>
+          <p class="subtitle">Convey your message</p>
+        </div>
+        <div class="column has-text-centered">
           <span class="icon is-large">
-            <i class="fab fa-3x fa-css3"></i>
+            <i class="fas fa-users fa-3x"></i>
           </span>
-          <p class="title is-4" style="margin-top: 0.5em;"><strong>Modern</strong></p>
-          <p class="subtitle">Built with <strong>Flexbox</strong></p>
-        </a>
-        <a class="column has-text-centered" href="https://github.com/jgthms/bulma">
+          <p class="title is-4" style="margin-top: 0.5em;"><strong>Speak Directly</strong></p>
+          <p class="subtitle">To your customers</p>
+        </div>
+        <div class="column has-text-centered">
           <span class="icon is-large">
-            <i class="fab fa-3x fa-github"></i>
+            <i class="fas fa-fighter-jet fa-3x fa-spin"></i>
           </span>
-          <p class="title is-4" style="margin-top: 0.5em;"><strong>Free</strong></p>
-          <p class="subtitle">Open source on <strong>GitHub</strong></p>
-        </a>
+          <p class="title is-4" style="margin-top: 0.5em;"><strong>Plus Animations</strong></p>
+          <p class="subtitle">To really make it pop</p>
+        </div>
       </nav>
     </div>
   </div>
