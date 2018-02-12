@@ -26,6 +26,20 @@
 					        </span>
 					    </a>
 					</p>
+					<p class="control">
+					    <a class="button is-link is-linkedin is-circle" target="_blank" href="https://www.linkedin.com/in/samplePage">
+					        <span class="icon">
+					            <i class="fab fa-linkedin-in"></i>
+					        </span>
+					    </a>
+					</p>
+					<p class="control">
+					    <a class="button is-link is-houzz is-circle" target="_blank" href="https://www.houzz.com/user/samplePage">
+					        <span class="icon">
+					            <i class="fab fa-houzz"></i>
+					        </span>
+					    </a>
+					</p>
 	        	</div>
 	        </div>
 	        <!-- /content -->
