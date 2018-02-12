@@ -88,12 +88,12 @@
         <div class="tile">
           <div class="tile is-parent is-vertical">
             <article class="tile is-child notification is-primary">
-              <p class="title">Vertical...</p>
-              <p class="subtitle">Top tile</p>
+              <p class="title">Event 1</p>
+              <p class="subtitle">Some info bout this event</p>
             </article>
             <article class="tile is-child notification is-warning">
-              <p class="title">...tiles</p>
-              <p class="subtitle">Bottom tile</p>
+              <p class="title">Event 2</p>
+              <p class="subtitle">Some long info bout this event with a bunch of words that aren't really relevant.</p>
             </article>
           </div>
           <div class="tile is-parent">
