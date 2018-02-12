@@ -19,7 +19,7 @@
         
         setup_postdata($post);
 
-        echo '<a href="'.get_field('url').'"><img src="'.get_field('logo').'" /></a>';
+        echo '<a target="_blank" href="'.get_field('url').'"><img src="'.get_field('logo').'" /></a>';
 
         wp_reset_postdata();
       }
