@@ -12,7 +12,7 @@
 
 <!-- Hero Slider Section -->
 <section class="hero is-medium">
-  <div class="her-body hero-slider">
+  <div class="hero-body hero-slider">
     <?php
       
       foreach ($posts as $post) {
