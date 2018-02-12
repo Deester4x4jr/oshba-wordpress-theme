@@ -6,7 +6,7 @@
 
         while( have_rows('social_accounts', 'option') ) {
 
-            if ($counter > 3) {
+            if ($counter == 3) {
                 break;
             }
 
