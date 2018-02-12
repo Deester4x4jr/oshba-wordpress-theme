@@ -41,7 +41,6 @@
   </div>
 </section>
 
-<!--
 <section class="hero is-primary">
   <div class="hero-body">
     <div class="container">
@@ -84,7 +83,6 @@
     </div>
   </div>
 </section>
--->
 
 <!--
 <section class="section is-medium">
