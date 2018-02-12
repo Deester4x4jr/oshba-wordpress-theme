@@ -68,13 +68,13 @@
       arrows: false,
       dots: true,
       fade: true,
-      asNavFor: '.slider-nav'
+      asNavFor: '.hero-slider-nav'
     });
     
     $('.hero-slider-nav').slick({
       slidesToShow: 3,
       slidesToScroll: 1,
-      asNavFor: '.slider-for',
+      asNavFor: '.hero-slider',
       arrows: true,
       centerMode: true,
       focusOnSelect: true
