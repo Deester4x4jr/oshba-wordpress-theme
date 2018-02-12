@@ -11,7 +11,7 @@
 <p class="control">
     <a class="button is-link" target="_blank" href="<?php echo $url; ?>">
         <span class="icon">
-            <i class="fas <?php echo $icn; ?>"></i>
+            <i class="fas fa-<?php echo $icn; ?>"></i>
         </span>
         <span>
             <?php echo $msg; ?>
