@@ -28,7 +28,7 @@
   </div>
 </section>
 <section class="hero">
-  <div class="hero-slider-nav columns">
+  <div class="hero-slider-nav columns is-gapless">
     <?php
       
       foreach ($posts as $post) {
