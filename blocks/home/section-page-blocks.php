@@ -41,6 +41,41 @@
   </div>
 </section>
 
+<hr class="is-marginless">
+
+<section class="hero is-medium intro">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns">
+      	<div class="column is-image">
+          <
+        </div>
+      </div>
+        <div class="column is-content has-text-right is-primary">
+          <div class="content">
+            <h1 class="title">Custom Backgrounds for sections</h1>
+
+            <p>The home building business is based on trust. Doing business with a member of the Central Oklahoma Home Builders Association (COHBA), means you are dealing with someone who stands behind the products they sell. That’s something you can build on.</p>
+
+            <p>Central Oklahoma Home Builders Association is a non-profit, professional organization that promotes the home building industry and its members by connecting builders, developers, associates and home buyers. Since our inception in 1943, COHBA has become Oklahoma’s strongest home building association. We are also affiliated with the National Association of Home Builders.</p>
+
+            <nav class="intro-buttons">
+              <a class="button is-primary is-large" href="#">
+                <span>
+                  <strong>Learn More</strong>
+                </span>
+              </a>
+              <a class="button is-light is-large" href="#">
+                <span>Find Members</span>
+              </a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <section class="hero is-info">
   <div class="hero-body">
     <div class="container">
