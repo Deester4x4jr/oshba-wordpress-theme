@@ -14,9 +14,9 @@
 
 		<meta property="og:title" content="Some Cool Title">
 		<meta property="og:description" content="Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.">
-		<meta property="og:image" content="/wp-content/uploads/2018/02/og-image-horizontal.png">
-		<meta property="og:image" content="/wp-content/uploads/2018/02/og-image-vertical.png">
-		<meta property="og:image" content="/wp-content/uploads/2018/02/og-image-square.png">
+		<meta property="og:image" content="http://www.thaw.io/wp-content/uploads/2018/02/og-image-horizontal.png">
+		<meta property="og:image" content="http://www.thaw.io/wp-content/uploads/2018/02/og-image-vertical.png">
+		<meta property="og:image" content="http://www.thaw.io/wp-content/uploads/2018/02/og-image-square.png">
 
 		<?php wp_head(); ?>
 		<script>
