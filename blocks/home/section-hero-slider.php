@@ -13,7 +13,7 @@
 <!-- Hero Slider Section -->
 <section class="hero is-medium">
   <div class="container">
-    <div class=".slider-for">
+    <div class="slider-for">
       <?php
         
         foreach ($posts as $post) {
@@ -27,7 +27,7 @@
 
       ?>
     </div>
-    <div class=".slider-nav">
+    <div class="slider-nav">
       <?php
         
         foreach ($posts as $post) {
