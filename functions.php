@@ -26,7 +26,10 @@ if( function_exists('acf_add_options_page') ) {
 	External Modules/Files
 \*------------------------------------*/
 
-// Load any external files you have here
+// IMPORT CUSTOM POST TYPE DEFINITIONS
+foreach(glob(__DIR__."/post-types/*.php") as $filename){
+    include $filename;
+}
 
 /*------------------------------------*\
 	Theme Support
