@@ -166,11 +166,6 @@ function header_nav_menu() {
     return $output;
 }
 
-// Build Header Social Menu Component
-function header_social_menu() {
-    //...
-}
-
 // Load HTML5 Blank scripts (header.php)
 function html5blank_header_scripts()
 {
