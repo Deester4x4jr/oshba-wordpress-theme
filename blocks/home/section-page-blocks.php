@@ -161,7 +161,7 @@
         </div>
       </div>
       <div class="tile is-parent">
-        <article class="tile is-child notification is-outlined">
+        <article class="tile is-child notification">
           <p class="title">Tiles can be very tall</p>
           <p class="subtitle">With even more text</p>
           <div class="content">
