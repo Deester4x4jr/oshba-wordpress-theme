@@ -75,7 +75,6 @@
       asNavFor: '.hero-slider',
       arrows: true,
       centerMode: true,
-      centerPadding: '60px',
       focusOnSelect: true
     });
 
