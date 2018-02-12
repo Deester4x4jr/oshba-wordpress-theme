@@ -81,10 +81,6 @@
 								</div>
   							</div>
 					</div>
-					<!-- <nav class="level" role="navigation"> -->
-						<?php //html5blank_nav(); ?>
-					<!-- </nav> -->
-					<!-- /nav -->
 
 			</header>
 			<!-- /header -->
