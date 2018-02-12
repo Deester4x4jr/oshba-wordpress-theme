@@ -13,10 +13,7 @@
 	            </p>
 	        	<div class="field is-grouped is-grouped-centered">
 	        		<p class="control">
-					    <a class="" target="_blank" href="https://www.facebook.com/samplePage">
-					        <!-- <span class="icon">
-					            <i class="fab fa-facebook-f"></i>
-					        </span> -->
+					    <a target="_blank" href="https://www.facebook.com/samplePage">
 					        <span class="icon is-medium">
 								<span class="fa-stack">
 									<i class="fas fa-circle fa-stack-2x is-facebook"></i>
@@ -26,10 +23,33 @@
 					    </a>
 					</p>
 					<p class="control">
-					    <a class="button is-link is-instagram is-rounded" target="_blank" href="https://www.instagram.com/samplePage">
-					        <span class="icon">
-					            <i class="fab fa-instagram"></i>
-					        </span>
+					    <a target="_blank" href="https://www.instagram.com/samplePage">
+					        <span class="icon is-medium">
+								<span class="fa-stack">
+									<i class="fas fa-circle fa-stack-2x is-instagram"></i>
+									<i class="fab fa-instagram fa-stack-1x fa-inverse"></i>
+								</span>
+							</span>
+					    </a>
+					</p>
+					<p class="control">
+					    <a target="_blank" href="https://www.houzz.com/user/samplePage">
+					        <span class="icon is-medium">
+								<span class="fa-stack">
+									<i class="fas fa-circle fa-stack-2x is-houzz"></i>
+									<i class="fab fa-houzz fa-stack-1x fa-inverse"></i>
+								</span>
+							</span>
+					    </a>
+					</p>
+					<p class="control">
+					    <a target="_blank" href="https://www.linkedin.com/in/samplePage">
+					        <span class="icon is-medium">
+								<span class="fa-stack">
+									<i class="fas fa-circle fa-stack-2x is-linkedin"></i>
+									<i class="fab fa-linkedin-in fa-stack-1x fa-inverse"></i>
+								</span>
+							</span>
 					    </a>
 					</p>
 	        	</div>
