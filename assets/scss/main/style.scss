@@ -16,18 +16,18 @@ CSS file.
 // Import normalize from Bower
 @import "../../bower/normalize-css/normalize";
 
+// NEED TO FIGURE OUT THE COLOR CUSTOMIZATION THING Here
+@import "overrides","customizations";
+
+// Import Bulma
+@import "../../bower/bulma/bulma";
+
 // Import animate.css from Bower
 @import "../../bower/animate.css/animate";
 
 // Import Slick from Bower
 @import "../../bower/slick-carousel/slick/slick.scss";
 @import "../../bower/slick-carousel/slick/slick-theme.scss";
-
-// NEED TO FIGURE OUT THE COLOR CUSTOMIZATION THING Here
-@import "overrides","customizations";
-
-// Import Bulma
-@import "../../bower/bulma/bulma";
 
 // Import local Settings
 // @import "settings";
