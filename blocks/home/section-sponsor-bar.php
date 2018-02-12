@@ -37,8 +37,6 @@
       slidesToScroll: 1,
       autoPlay: true,
       autoplaySpeed: 1000,
-      pauseOnHover: true,
-      inifite: true,
     });
 
   });
