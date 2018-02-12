@@ -5,6 +5,21 @@
 	    
 	    <!-- footer container -->
 	    <div class="container">
+
+	    	<!-- nav -->
+			<nav id="footer-nav" class="navbar is-transparent" role="navigation" aria-label="footer navigation">
+				
+				<div class="container">
+
+					<div class="navbar-menu">
+						
+						<div class="navbar-start">
+							<?php echo footer_nav_menu(); ?>
+						</div>
+
+					</div>
+				</div>
+			</nav>
 	        
 	        <!-- content -->
 	        <div class="content has-text-centered">
