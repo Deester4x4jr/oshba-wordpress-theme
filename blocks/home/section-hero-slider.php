@@ -57,21 +57,27 @@
 <!-- End Hero Slider Section -->
 
 <script type="text/javascript">
+
   jQuery(document).ready(function($) {
+    
     $('.slider-for').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
-      arrows: false,
+      arrows: true,
       fade: true,
       asNavFor: '.slider-nav'
     });
+    
     $('.slider-nav').slick({
       slidesToShow: 3,
       slidesToScroll: 1,
       asNavFor: '.slider-for',
+      arrows: true,
       dots: true,
       centerMode: true,
       focusOnSelect: true
     });
+
   });
+
 </script>
