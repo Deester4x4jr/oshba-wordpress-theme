@@ -122,7 +122,8 @@ function header_nav_menu() {
 
         $tmp = array(
             'title' => $title,
-            'link' => $link,
+            // 'link' => $link,
+            'link' => '#',
         );
          
         if ( !$parent_id ) {
