@@ -1,25 +1,25 @@
 <?php
 
-function post_type_event(){
+function post_type_form(){
 
-	register_post_type('event',
+	register_post_type('form',
 		array(
 			'labels' => array(
-				'name'               => "Event",
-				'singular_name'      => "Event",
-				'menu_name'          => "Events",
-				'all_items'          => "Events",
+				'name'               => "Form",
+				'singular_name'      => "Form",
+				'menu_name'          => "Forms",
+				'all_items'          => "Forms",
 				'add_new'            => "Add New",
-				'add_new_item'       => "Add New Event",
-				'edit_item'          => "Edit Event",
-			    'new_item'           => "New Event",
+				'add_new_item'       => "Add New Form",
+				'edit_item'          => "Edit Form",
+			    'new_item'           => "New Form",
 			    'view_item'          => "View",
-			    'search_items'       => "Search Events",
-			    'not_found'          => "No Events found",
-			    'not_found_in_trash' => "No Events found in Trash",
+			    'search_items'       => "Search Forms",
+			    'not_found'          => "No Forms found",
+			    'not_found_in_trash' => "No Forms found in Trash",
 			    'parent_item_colon'  => ""
 			),
-			'description'         => "Event",
+			'description'         => "Form",
 			'menu_icon'           => "dashicons-tickets",
 			'public'              => true,
 			'publicly_queryable'  => true,
@@ -30,10 +30,10 @@ function post_type_event(){
 			'has_archive'         => false,
 			'exclude_from_search' => false,
 			'capability_type'     => 'post',
-			'rewrite'             => array('slug'=>'events','with_front'=>false),
+			'rewrite'             => array('slug'=>'forms','with_front'=>false),
 			'hierarchical'        => false,
 			'supports'            => array('title','editor','thumbnail')
 		)
 	);
 
-} // add_action( 'init', 'post_type_event' );
+} // add_action( 'init', 'post_type_form' );
