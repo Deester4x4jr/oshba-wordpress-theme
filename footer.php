@@ -22,7 +22,7 @@
 			</nav> -->
 			<div class="field is-grouped is-grouped-centered">
         		<p class="control">
-				    <a class="button is-link is-inverted" target="_blank" href="/blog">
+				    <a class="button is-link is-transparent" target="_blank" href="/blog">
 				        <span>Blog</span>
 				    </a>
 				</p>
