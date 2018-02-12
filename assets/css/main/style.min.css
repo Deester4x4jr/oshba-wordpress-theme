@@ -434,6 +434,9 @@ template {
           clip-path: polygon(0 0, 45% 0, 85% 100%, 0% 100%);
   opacity: 0.75; }
 
+.hero .hero-slider .slick-slide:before:nth-of-type(2) {
+  background: #0072ff; }
+
 /*! bulma.io v0.6.2 | MIT License | github.com/jgthms/bulma */
 @-webkit-keyframes spinAround {
   from {
