@@ -44,10 +44,10 @@
 <hr class="is-marginless">
 
 <section class="hero is-medium intro">
-  <div class="hero-body">
+  <div class="hero-body is-primary">
     <div class="container">
-      <div class="columns is-primary">
-        <div class="column has-text-centered is-half is-content">
+      <div class="columns">
+        <div class="column has-text-centered is-half is-offset-one-quarter is-content">
           <div class="content">
             <h1 class="title">Custom Backgrounds for sections</h1>
 
