@@ -11,7 +11,7 @@
 ?>
 
 <!-- Hero Slider Section -->
-<section class="hero is-medium">
+<section class="hero is-medium is-primary">
   <div class="container">
     <div class="slider-for">
       <?php
