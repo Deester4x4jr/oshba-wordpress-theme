@@ -3518,6 +3518,30 @@ a.has-text-warning:hover, a.has-text-warning:focus {
 a.has-text-danger:hover, a.has-text-danger:focus {
   color: #ff0537 !important; }
 
+.has-text-twitter {
+  color: #55ACEE !important; }
+
+a.has-text-twitter:hover, a.has-text-twitter:focus {
+  color: #2795e9 !important; }
+
+.has-text-linkedin {
+  color: #0077B5 !important; }
+
+a.has-text-linkedin:hover, a.has-text-linkedin:focus {
+  color: #005582 !important; }
+
+.has-text-facebook {
+  color: #3B5999 !important; }
+
+a.has-text-facebook:hover, a.has-text-facebook:focus {
+  color: #2d4474 !important; }
+
+.has-text-instagram {
+  color: #E4405F !important; }
+
+a.has-text-instagram:hover, a.has-text-instagram:focus {
+  color: #d31e40 !important; }
+
 .has-text-black-bis {
   color: #121212 !important; }
 
@@ -4541,6 +4565,246 @@ a.box:active {
         border-color: #fff;
         box-shadow: none;
         color: #fff; }
+  .button.is-twitter {
+    background-color: #55ACEE;
+    border-color: transparent;
+    color: #fff; }
+    .button.is-twitter:hover, .button.is-twitter.is-hovered {
+      background-color: #49a6ed;
+      border-color: transparent;
+      color: #fff; }
+    .button.is-twitter:focus, .button.is-twitter.is-focused {
+      border-color: transparent;
+      color: #fff; }
+      .button.is-twitter:focus:not(:active), .button.is-twitter.is-focused:not(:active) {
+        box-shadow: 0 0 0 0.125em rgba(85, 172, 238, 0.25); }
+    .button.is-twitter:active, .button.is-twitter.is-active {
+      background-color: #3ea1ec;
+      border-color: transparent;
+      color: #fff; }
+    .button.is-twitter[disabled] {
+      background-color: #55ACEE;
+      border-color: transparent;
+      box-shadow: none; }
+    .button.is-twitter.is-inverted {
+      background-color: #fff;
+      color: #55ACEE; }
+      .button.is-twitter.is-inverted:hover {
+        background-color: #f2f2f2; }
+      .button.is-twitter.is-inverted[disabled] {
+        background-color: #fff;
+        border-color: transparent;
+        box-shadow: none;
+        color: #55ACEE; }
+    .button.is-twitter.is-loading:after {
+      border-color: transparent transparent #fff #fff !important; }
+    .button.is-twitter.is-outlined {
+      background-color: transparent;
+      border-color: #55ACEE;
+      color: #55ACEE; }
+      .button.is-twitter.is-outlined:hover, .button.is-twitter.is-outlined:focus {
+        background-color: #55ACEE;
+        border-color: #55ACEE;
+        color: #fff; }
+      .button.is-twitter.is-outlined.is-loading:after {
+        border-color: transparent transparent #55ACEE #55ACEE !important; }
+      .button.is-twitter.is-outlined[disabled] {
+        background-color: transparent;
+        border-color: #55ACEE;
+        box-shadow: none;
+        color: #55ACEE; }
+    .button.is-twitter.is-inverted.is-outlined {
+      background-color: transparent;
+      border-color: #fff;
+      color: #fff; }
+      .button.is-twitter.is-inverted.is-outlined:hover, .button.is-twitter.is-inverted.is-outlined:focus {
+        background-color: #fff;
+        color: #55ACEE; }
+      .button.is-twitter.is-inverted.is-outlined[disabled] {
+        background-color: transparent;
+        border-color: #fff;
+        box-shadow: none;
+        color: #fff; }
+  .button.is-linkedin {
+    background-color: #0077B5;
+    border-color: transparent;
+    color: #fff; }
+    .button.is-linkedin:hover, .button.is-linkedin.is-hovered {
+      background-color: #006fa8;
+      border-color: transparent;
+      color: #fff; }
+    .button.is-linkedin:focus, .button.is-linkedin.is-focused {
+      border-color: transparent;
+      color: #fff; }
+      .button.is-linkedin:focus:not(:active), .button.is-linkedin.is-focused:not(:active) {
+        box-shadow: 0 0 0 0.125em rgba(0, 119, 181, 0.25); }
+    .button.is-linkedin:active, .button.is-linkedin.is-active {
+      background-color: #00669c;
+      border-color: transparent;
+      color: #fff; }
+    .button.is-linkedin[disabled] {
+      background-color: #0077B5;
+      border-color: transparent;
+      box-shadow: none; }
+    .button.is-linkedin.is-inverted {
+      background-color: #fff;
+      color: #0077B5; }
+      .button.is-linkedin.is-inverted:hover {
+        background-color: #f2f2f2; }
+      .button.is-linkedin.is-inverted[disabled] {
+        background-color: #fff;
+        border-color: transparent;
+        box-shadow: none;
+        color: #0077B5; }
+    .button.is-linkedin.is-loading:after {
+      border-color: transparent transparent #fff #fff !important; }
+    .button.is-linkedin.is-outlined {
+      background-color: transparent;
+      border-color: #0077B5;
+      color: #0077B5; }
+      .button.is-linkedin.is-outlined:hover, .button.is-linkedin.is-outlined:focus {
+        background-color: #0077B5;
+        border-color: #0077B5;
+        color: #fff; }
+      .button.is-linkedin.is-outlined.is-loading:after {
+        border-color: transparent transparent #0077B5 #0077B5 !important; }
+      .button.is-linkedin.is-outlined[disabled] {
+        background-color: transparent;
+        border-color: #0077B5;
+        box-shadow: none;
+        color: #0077B5; }
+    .button.is-linkedin.is-inverted.is-outlined {
+      background-color: transparent;
+      border-color: #fff;
+      color: #fff; }
+      .button.is-linkedin.is-inverted.is-outlined:hover, .button.is-linkedin.is-inverted.is-outlined:focus {
+        background-color: #fff;
+        color: #0077B5; }
+      .button.is-linkedin.is-inverted.is-outlined[disabled] {
+        background-color: transparent;
+        border-color: #fff;
+        box-shadow: none;
+        color: #fff; }
+  .button.is-facebook {
+    background-color: #3B5999;
+    border-color: transparent;
+    color: #fff; }
+    .button.is-facebook:hover, .button.is-facebook.is-hovered {
+      background-color: #375490;
+      border-color: transparent;
+      color: #fff; }
+    .button.is-facebook:focus, .button.is-facebook.is-focused {
+      border-color: transparent;
+      color: #fff; }
+      .button.is-facebook:focus:not(:active), .button.is-facebook.is-focused:not(:active) {
+        box-shadow: 0 0 0 0.125em rgba(59, 89, 153, 0.25); }
+    .button.is-facebook:active, .button.is-facebook.is-active {
+      background-color: #344e87;
+      border-color: transparent;
+      color: #fff; }
+    .button.is-facebook[disabled] {
+      background-color: #3B5999;
+      border-color: transparent;
+      box-shadow: none; }
+    .button.is-facebook.is-inverted {
+      background-color: #fff;
+      color: #3B5999; }
+      .button.is-facebook.is-inverted:hover {
+        background-color: #f2f2f2; }
+      .button.is-facebook.is-inverted[disabled] {
+        background-color: #fff;
+        border-color: transparent;
+        box-shadow: none;
+        color: #3B5999; }
+    .button.is-facebook.is-loading:after {
+      border-color: transparent transparent #fff #fff !important; }
+    .button.is-facebook.is-outlined {
+      background-color: transparent;
+      border-color: #3B5999;
+      color: #3B5999; }
+      .button.is-facebook.is-outlined:hover, .button.is-facebook.is-outlined:focus {
+        background-color: #3B5999;
+        border-color: #3B5999;
+        color: #fff; }
+      .button.is-facebook.is-outlined.is-loading:after {
+        border-color: transparent transparent #3B5999 #3B5999 !important; }
+      .button.is-facebook.is-outlined[disabled] {
+        background-color: transparent;
+        border-color: #3B5999;
+        box-shadow: none;
+        color: #3B5999; }
+    .button.is-facebook.is-inverted.is-outlined {
+      background-color: transparent;
+      border-color: #fff;
+      color: #fff; }
+      .button.is-facebook.is-inverted.is-outlined:hover, .button.is-facebook.is-inverted.is-outlined:focus {
+        background-color: #fff;
+        color: #3B5999; }
+      .button.is-facebook.is-inverted.is-outlined[disabled] {
+        background-color: transparent;
+        border-color: #fff;
+        box-shadow: none;
+        color: #fff; }
+  .button.is-instagram {
+    background-color: #E4405F;
+    border-color: transparent;
+    color: #fff; }
+    .button.is-instagram:hover, .button.is-instagram.is-hovered {
+      background-color: #e23556;
+      border-color: transparent;
+      color: #fff; }
+    .button.is-instagram:focus, .button.is-instagram.is-focused {
+      border-color: transparent;
+      color: #fff; }
+      .button.is-instagram:focus:not(:active), .button.is-instagram.is-focused:not(:active) {
+        box-shadow: 0 0 0 0.125em rgba(228, 64, 95, 0.25); }
+    .button.is-instagram:active, .button.is-instagram.is-active {
+      background-color: #e12a4c;
+      border-color: transparent;
+      color: #fff; }
+    .button.is-instagram[disabled] {
+      background-color: #E4405F;
+      border-color: transparent;
+      box-shadow: none; }
+    .button.is-instagram.is-inverted {
+      background-color: #fff;
+      color: #E4405F; }
+      .button.is-instagram.is-inverted:hover {
+        background-color: #f2f2f2; }
+      .button.is-instagram.is-inverted[disabled] {
+        background-color: #fff;
+        border-color: transparent;
+        box-shadow: none;
+        color: #E4405F; }
+    .button.is-instagram.is-loading:after {
+      border-color: transparent transparent #fff #fff !important; }
+    .button.is-instagram.is-outlined {
+      background-color: transparent;
+      border-color: #E4405F;
+      color: #E4405F; }
+      .button.is-instagram.is-outlined:hover, .button.is-instagram.is-outlined:focus {
+        background-color: #E4405F;
+        border-color: #E4405F;
+        color: #fff; }
+      .button.is-instagram.is-outlined.is-loading:after {
+        border-color: transparent transparent #E4405F #E4405F !important; }
+      .button.is-instagram.is-outlined[disabled] {
+        background-color: transparent;
+        border-color: #E4405F;
+        box-shadow: none;
+        color: #E4405F; }
+    .button.is-instagram.is-inverted.is-outlined {
+      background-color: transparent;
+      border-color: #fff;
+      color: #fff; }
+      .button.is-instagram.is-inverted.is-outlined:hover, .button.is-instagram.is-inverted.is-outlined:focus {
+        background-color: #fff;
+        color: #E4405F; }
+      .button.is-instagram.is-inverted.is-outlined[disabled] {
+        background-color: transparent;
+        border-color: #fff;
+        box-shadow: none;
+        color: #fff; }
   .button.is-small {
     border-radius: 2px;
     font-size: 0.75rem; }
@@ -4951,6 +5215,42 @@ a.box:active {
     .textarea.is-danger:active,
     .textarea.is-danger.is-active {
       box-shadow: 0 0 0 0.125em rgba(255, 56, 96, 0.25); }
+  .input.is-twitter,
+  .textarea.is-twitter {
+    border-color: #55ACEE; }
+    .input.is-twitter:focus, .input.is-twitter.is-focused, .input.is-twitter:active, .input.is-twitter.is-active,
+    .textarea.is-twitter:focus,
+    .textarea.is-twitter.is-focused,
+    .textarea.is-twitter:active,
+    .textarea.is-twitter.is-active {
+      box-shadow: 0 0 0 0.125em rgba(85, 172, 238, 0.25); }
+  .input.is-linkedin,
+  .textarea.is-linkedin {
+    border-color: #0077B5; }
+    .input.is-linkedin:focus, .input.is-linkedin.is-focused, .input.is-linkedin:active, .input.is-linkedin.is-active,
+    .textarea.is-linkedin:focus,
+    .textarea.is-linkedin.is-focused,
+    .textarea.is-linkedin:active,
+    .textarea.is-linkedin.is-active {
+      box-shadow: 0 0 0 0.125em rgba(0, 119, 181, 0.25); }
+  .input.is-facebook,
+  .textarea.is-facebook {
+    border-color: #3B5999; }
+    .input.is-facebook:focus, .input.is-facebook.is-focused, .input.is-facebook:active, .input.is-facebook.is-active,
+    .textarea.is-facebook:focus,
+    .textarea.is-facebook.is-focused,
+    .textarea.is-facebook:active,
+    .textarea.is-facebook.is-active {
+      box-shadow: 0 0 0 0.125em rgba(59, 89, 153, 0.25); }
+  .input.is-instagram,
+  .textarea.is-instagram {
+    border-color: #E4405F; }
+    .input.is-instagram:focus, .input.is-instagram.is-focused, .input.is-instagram:active, .input.is-instagram.is-active,
+    .textarea.is-instagram:focus,
+    .textarea.is-instagram.is-focused,
+    .textarea.is-instagram:active,
+    .textarea.is-instagram.is-active {
+      box-shadow: 0 0 0 0.125em rgba(228, 64, 95, 0.25); }
   .input.is-small,
   .textarea.is-small {
     border-radius: 2px;
@@ -5151,6 +5451,22 @@ a.box:active {
     border-color: #ff3860; }
     .select.is-danger select:focus, .select.is-danger select.is-focused, .select.is-danger select:active, .select.is-danger select.is-active {
       box-shadow: 0 0 0 0.125em rgba(255, 56, 96, 0.25); }
+  .select.is-twitter select {
+    border-color: #55ACEE; }
+    .select.is-twitter select:focus, .select.is-twitter select.is-focused, .select.is-twitter select:active, .select.is-twitter select.is-active {
+      box-shadow: 0 0 0 0.125em rgba(85, 172, 238, 0.25); }
+  .select.is-linkedin select {
+    border-color: #0077B5; }
+    .select.is-linkedin select:focus, .select.is-linkedin select.is-focused, .select.is-linkedin select:active, .select.is-linkedin select.is-active {
+      box-shadow: 0 0 0 0.125em rgba(0, 119, 181, 0.25); }
+  .select.is-facebook select {
+    border-color: #3B5999; }
+    .select.is-facebook select:focus, .select.is-facebook select.is-focused, .select.is-facebook select:active, .select.is-facebook select.is-active {
+      box-shadow: 0 0 0 0.125em rgba(59, 89, 153, 0.25); }
+  .select.is-instagram select {
+    border-color: #E4405F; }
+    .select.is-instagram select:focus, .select.is-instagram select.is-focused, .select.is-instagram select:active, .select.is-instagram select.is-active {
+      box-shadow: 0 0 0 0.125em rgba(228, 64, 95, 0.25); }
   .select.is-small {
     border-radius: 2px;
     font-size: 0.75rem; }
@@ -5357,6 +5673,70 @@ a.box:active {
     background-color: #ff1f4b;
     border-color: transparent;
     color: #fff; }
+  .file.is-twitter .file-cta {
+    background-color: #55ACEE;
+    border-color: transparent;
+    color: #fff; }
+  .file.is-twitter:hover .file-cta, .file.is-twitter.is-hovered .file-cta {
+    background-color: #49a6ed;
+    border-color: transparent;
+    color: #fff; }
+  .file.is-twitter:focus .file-cta, .file.is-twitter.is-focused .file-cta {
+    border-color: transparent;
+    box-shadow: 0 0 0.5em rgba(85, 172, 238, 0.25);
+    color: #fff; }
+  .file.is-twitter:active .file-cta, .file.is-twitter.is-active .file-cta {
+    background-color: #3ea1ec;
+    border-color: transparent;
+    color: #fff; }
+  .file.is-linkedin .file-cta {
+    background-color: #0077B5;
+    border-color: transparent;
+    color: #fff; }
+  .file.is-linkedin:hover .file-cta, .file.is-linkedin.is-hovered .file-cta {
+    background-color: #006fa8;
+    border-color: transparent;
+    color: #fff; }
+  .file.is-linkedin:focus .file-cta, .file.is-linkedin.is-focused .file-cta {
+    border-color: transparent;
+    box-shadow: 0 0 0.5em rgba(0, 119, 181, 0.25);
+    color: #fff; }
+  .file.is-linkedin:active .file-cta, .file.is-linkedin.is-active .file-cta {
+    background-color: #00669c;
+    border-color: transparent;
+    color: #fff; }
+  .file.is-facebook .file-cta {
+    background-color: #3B5999;
+    border-color: transparent;
+    color: #fff; }
+  .file.is-facebook:hover .file-cta, .file.is-facebook.is-hovered .file-cta {
+    background-color: #375490;
+    border-color: transparent;
+    color: #fff; }
+  .file.is-facebook:focus .file-cta, .file.is-facebook.is-focused .file-cta {
+    border-color: transparent;
+    box-shadow: 0 0 0.5em rgba(59, 89, 153, 0.25);
+    color: #fff; }
+  .file.is-facebook:active .file-cta, .file.is-facebook.is-active .file-cta {
+    background-color: #344e87;
+    border-color: transparent;
+    color: #fff; }
+  .file.is-instagram .file-cta {
+    background-color: #E4405F;
+    border-color: transparent;
+    color: #fff; }
+  .file.is-instagram:hover .file-cta, .file.is-instagram.is-hovered .file-cta {
+    background-color: #e23556;
+    border-color: transparent;
+    color: #fff; }
+  .file.is-instagram:focus .file-cta, .file.is-instagram.is-focused .file-cta {
+    border-color: transparent;
+    box-shadow: 0 0 0.5em rgba(228, 64, 95, 0.25);
+    color: #fff; }
+  .file.is-instagram:active .file-cta, .file.is-instagram.is-active .file-cta {
+    background-color: #e12a4c;
+    border-color: transparent;
+    color: #fff; }
   .file.is-small {
     font-size: 0.75rem; }
   .file.is-medium {
@@ -5540,6 +5920,14 @@ a.box:active {
     color: #ffdd57; }
   .help.is-danger {
     color: #ff3860; }
+  .help.is-twitter {
+    color: #55ACEE; }
+  .help.is-linkedin {
+    color: #0077B5; }
+  .help.is-facebook {
+    color: #3B5999; }
+  .help.is-instagram {
+    color: #E4405F; }
 
 .field:not(:last-child) {
   margin-bottom: 0.75rem; }
@@ -5875,6 +6263,18 @@ a.box:active {
   .notification.is-danger {
     background-color: #ff3860;
     color: #fff; }
+  .notification.is-twitter {
+    background-color: #55ACEE;
+    color: #fff; }
+  .notification.is-linkedin {
+    background-color: #0077B5;
+    color: #fff; }
+  .notification.is-facebook {
+    background-color: #3B5999;
+    color: #fff; }
+  .notification.is-instagram {
+    background-color: #E4405F;
+    color: #fff; }
 
 .progress {
   -moz-appearance: none;
@@ -5957,6 +6357,30 @@ a.box:active {
     background-color: #ff3860; }
   .progress.is-danger::-ms-fill {
     background-color: #ff3860; }
+  .progress.is-twitter::-webkit-progress-value {
+    background-color: #55ACEE; }
+  .progress.is-twitter::-moz-progress-bar {
+    background-color: #55ACEE; }
+  .progress.is-twitter::-ms-fill {
+    background-color: #55ACEE; }
+  .progress.is-linkedin::-webkit-progress-value {
+    background-color: #0077B5; }
+  .progress.is-linkedin::-moz-progress-bar {
+    background-color: #0077B5; }
+  .progress.is-linkedin::-ms-fill {
+    background-color: #0077B5; }
+  .progress.is-facebook::-webkit-progress-value {
+    background-color: #3B5999; }
+  .progress.is-facebook::-moz-progress-bar {
+    background-color: #3B5999; }
+  .progress.is-facebook::-ms-fill {
+    background-color: #3B5999; }
+  .progress.is-instagram::-webkit-progress-value {
+    background-color: #E4405F; }
+  .progress.is-instagram::-moz-progress-bar {
+    background-color: #E4405F; }
+  .progress.is-instagram::-ms-fill {
+    background-color: #E4405F; }
   .progress.is-small {
     height: 0.75rem; }
   .progress.is-medium {
@@ -6023,6 +6447,26 @@ a.box:active {
     .table th.is-danger {
       background-color: #ff3860;
       border-color: #ff3860;
+      color: #fff; }
+    .table td.is-twitter,
+    .table th.is-twitter {
+      background-color: #55ACEE;
+      border-color: #55ACEE;
+      color: #fff; }
+    .table td.is-linkedin,
+    .table th.is-linkedin {
+      background-color: #0077B5;
+      border-color: #0077B5;
+      color: #fff; }
+    .table td.is-facebook,
+    .table th.is-facebook {
+      background-color: #3B5999;
+      border-color: #3B5999;
+      color: #fff; }
+    .table td.is-instagram,
+    .table th.is-instagram {
+      background-color: #E4405F;
+      border-color: #E4405F;
       color: #fff; }
     .table td.is-narrow,
     .table th.is-narrow {
@@ -6157,6 +6601,18 @@ a.box:active {
     color: rgba(0, 0, 0, 0.7); }
   .tag:not(body).is-danger {
     background-color: #ff3860;
+    color: #fff; }
+  .tag:not(body).is-twitter {
+    background-color: #55ACEE;
+    color: #fff; }
+  .tag:not(body).is-linkedin {
+    background-color: #0077B5;
+    color: #fff; }
+  .tag:not(body).is-facebook {
+    background-color: #3B5999;
+    color: #fff; }
+  .tag:not(body).is-instagram {
+    background-color: #E4405F;
     color: #fff; }
   .tag:not(body).is-medium {
     font-size: 1rem; }
@@ -6812,6 +7268,38 @@ a.dropdown-item {
     .message.is-danger .message-body {
       border-color: #ff3860;
       color: #cd0930; }
+  .message.is-twitter {
+    background-color: #f6fafe; }
+    .message.is-twitter .message-header {
+      background-color: #55ACEE;
+      color: #fff; }
+    .message.is-twitter .message-body {
+      border-color: #55ACEE;
+      color: #1a5c8e; }
+  .message.is-linkedin {
+    background-color: #f5fcff; }
+    .message.is-linkedin .message-header {
+      background-color: #0077B5;
+      color: #fff; }
+    .message.is-linkedin .message-body {
+      border-color: #0077B5;
+      color: #034466; }
+  .message.is-facebook {
+    background-color: #f8f9fc; }
+    .message.is-facebook .message-header {
+      background-color: #3B5999;
+      color: #fff; }
+    .message.is-facebook .message-body {
+      border-color: #3B5999;
+      color: #30446f; }
+  .message.is-instagram {
+    background-color: #fef6f8; }
+    .message.is-instagram .message-header {
+      background-color: #E4405F;
+      color: #fff; }
+    .message.is-instagram .message-body {
+      border-color: #E4405F;
+      color: #ac213b; }
 
 .message-header {
   align-items: center;
@@ -7378,6 +7866,158 @@ a.dropdown-item {
         color: #fff; }
       .navbar.is-danger .navbar-dropdown a.navbar-item.is-active {
         background-color: #ff3860;
+        color: #fff; } }
+  .navbar.is-twitter {
+    background-color: #55ACEE;
+    color: #fff; }
+    .navbar.is-twitter .navbar-brand > .navbar-item,
+    .navbar.is-twitter .navbar-brand .navbar-link {
+      color: #fff; }
+    .navbar.is-twitter .navbar-brand > a.navbar-item:hover, .navbar.is-twitter .navbar-brand > a.navbar-item.is-active,
+    .navbar.is-twitter .navbar-brand .navbar-link:hover,
+    .navbar.is-twitter .navbar-brand .navbar-link.is-active {
+      background-color: #3ea1ec;
+      color: #fff; }
+    .navbar.is-twitter .navbar-brand .navbar-link::after {
+      border-color: #fff; }
+    @media screen and (min-width: 1024px) {
+      .navbar.is-twitter .navbar-start > .navbar-item,
+      .navbar.is-twitter .navbar-start .navbar-link,
+      .navbar.is-twitter .navbar-end > .navbar-item,
+      .navbar.is-twitter .navbar-end .navbar-link {
+        color: #fff; }
+      .navbar.is-twitter .navbar-start > a.navbar-item:hover, .navbar.is-twitter .navbar-start > a.navbar-item.is-active,
+      .navbar.is-twitter .navbar-start .navbar-link:hover,
+      .navbar.is-twitter .navbar-start .navbar-link.is-active,
+      .navbar.is-twitter .navbar-end > a.navbar-item:hover,
+      .navbar.is-twitter .navbar-end > a.navbar-item.is-active,
+      .navbar.is-twitter .navbar-end .navbar-link:hover,
+      .navbar.is-twitter .navbar-end .navbar-link.is-active {
+        background-color: #3ea1ec;
+        color: #fff; }
+      .navbar.is-twitter .navbar-start .navbar-link::after,
+      .navbar.is-twitter .navbar-end .navbar-link::after {
+        border-color: #fff; }
+      .navbar.is-twitter .navbar-item.has-dropdown:hover .navbar-link,
+      .navbar.is-twitter .navbar-item.has-dropdown.is-active .navbar-link {
+        background-color: #3ea1ec;
+        color: #fff; }
+      .navbar.is-twitter .navbar-dropdown a.navbar-item.is-active {
+        background-color: #55ACEE;
+        color: #fff; } }
+  .navbar.is-linkedin {
+    background-color: #0077B5;
+    color: #fff; }
+    .navbar.is-linkedin .navbar-brand > .navbar-item,
+    .navbar.is-linkedin .navbar-brand .navbar-link {
+      color: #fff; }
+    .navbar.is-linkedin .navbar-brand > a.navbar-item:hover, .navbar.is-linkedin .navbar-brand > a.navbar-item.is-active,
+    .navbar.is-linkedin .navbar-brand .navbar-link:hover,
+    .navbar.is-linkedin .navbar-brand .navbar-link.is-active {
+      background-color: #00669c;
+      color: #fff; }
+    .navbar.is-linkedin .navbar-brand .navbar-link::after {
+      border-color: #fff; }
+    @media screen and (min-width: 1024px) {
+      .navbar.is-linkedin .navbar-start > .navbar-item,
+      .navbar.is-linkedin .navbar-start .navbar-link,
+      .navbar.is-linkedin .navbar-end > .navbar-item,
+      .navbar.is-linkedin .navbar-end .navbar-link {
+        color: #fff; }
+      .navbar.is-linkedin .navbar-start > a.navbar-item:hover, .navbar.is-linkedin .navbar-start > a.navbar-item.is-active,
+      .navbar.is-linkedin .navbar-start .navbar-link:hover,
+      .navbar.is-linkedin .navbar-start .navbar-link.is-active,
+      .navbar.is-linkedin .navbar-end > a.navbar-item:hover,
+      .navbar.is-linkedin .navbar-end > a.navbar-item.is-active,
+      .navbar.is-linkedin .navbar-end .navbar-link:hover,
+      .navbar.is-linkedin .navbar-end .navbar-link.is-active {
+        background-color: #00669c;
+        color: #fff; }
+      .navbar.is-linkedin .navbar-start .navbar-link::after,
+      .navbar.is-linkedin .navbar-end .navbar-link::after {
+        border-color: #fff; }
+      .navbar.is-linkedin .navbar-item.has-dropdown:hover .navbar-link,
+      .navbar.is-linkedin .navbar-item.has-dropdown.is-active .navbar-link {
+        background-color: #00669c;
+        color: #fff; }
+      .navbar.is-linkedin .navbar-dropdown a.navbar-item.is-active {
+        background-color: #0077B5;
+        color: #fff; } }
+  .navbar.is-facebook {
+    background-color: #3B5999;
+    color: #fff; }
+    .navbar.is-facebook .navbar-brand > .navbar-item,
+    .navbar.is-facebook .navbar-brand .navbar-link {
+      color: #fff; }
+    .navbar.is-facebook .navbar-brand > a.navbar-item:hover, .navbar.is-facebook .navbar-brand > a.navbar-item.is-active,
+    .navbar.is-facebook .navbar-brand .navbar-link:hover,
+    .navbar.is-facebook .navbar-brand .navbar-link.is-active {
+      background-color: #344e87;
+      color: #fff; }
+    .navbar.is-facebook .navbar-brand .navbar-link::after {
+      border-color: #fff; }
+    @media screen and (min-width: 1024px) {
+      .navbar.is-facebook .navbar-start > .navbar-item,
+      .navbar.is-facebook .navbar-start .navbar-link,
+      .navbar.is-facebook .navbar-end > .navbar-item,
+      .navbar.is-facebook .navbar-end .navbar-link {
+        color: #fff; }
+      .navbar.is-facebook .navbar-start > a.navbar-item:hover, .navbar.is-facebook .navbar-start > a.navbar-item.is-active,
+      .navbar.is-facebook .navbar-start .navbar-link:hover,
+      .navbar.is-facebook .navbar-start .navbar-link.is-active,
+      .navbar.is-facebook .navbar-end > a.navbar-item:hover,
+      .navbar.is-facebook .navbar-end > a.navbar-item.is-active,
+      .navbar.is-facebook .navbar-end .navbar-link:hover,
+      .navbar.is-facebook .navbar-end .navbar-link.is-active {
+        background-color: #344e87;
+        color: #fff; }
+      .navbar.is-facebook .navbar-start .navbar-link::after,
+      .navbar.is-facebook .navbar-end .navbar-link::after {
+        border-color: #fff; }
+      .navbar.is-facebook .navbar-item.has-dropdown:hover .navbar-link,
+      .navbar.is-facebook .navbar-item.has-dropdown.is-active .navbar-link {
+        background-color: #344e87;
+        color: #fff; }
+      .navbar.is-facebook .navbar-dropdown a.navbar-item.is-active {
+        background-color: #3B5999;
+        color: #fff; } }
+  .navbar.is-instagram {
+    background-color: #E4405F;
+    color: #fff; }
+    .navbar.is-instagram .navbar-brand > .navbar-item,
+    .navbar.is-instagram .navbar-brand .navbar-link {
+      color: #fff; }
+    .navbar.is-instagram .navbar-brand > a.navbar-item:hover, .navbar.is-instagram .navbar-brand > a.navbar-item.is-active,
+    .navbar.is-instagram .navbar-brand .navbar-link:hover,
+    .navbar.is-instagram .navbar-brand .navbar-link.is-active {
+      background-color: #e12a4c;
+      color: #fff; }
+    .navbar.is-instagram .navbar-brand .navbar-link::after {
+      border-color: #fff; }
+    @media screen and (min-width: 1024px) {
+      .navbar.is-instagram .navbar-start > .navbar-item,
+      .navbar.is-instagram .navbar-start .navbar-link,
+      .navbar.is-instagram .navbar-end > .navbar-item,
+      .navbar.is-instagram .navbar-end .navbar-link {
+        color: #fff; }
+      .navbar.is-instagram .navbar-start > a.navbar-item:hover, .navbar.is-instagram .navbar-start > a.navbar-item.is-active,
+      .navbar.is-instagram .navbar-start .navbar-link:hover,
+      .navbar.is-instagram .navbar-start .navbar-link.is-active,
+      .navbar.is-instagram .navbar-end > a.navbar-item:hover,
+      .navbar.is-instagram .navbar-end > a.navbar-item.is-active,
+      .navbar.is-instagram .navbar-end .navbar-link:hover,
+      .navbar.is-instagram .navbar-end .navbar-link.is-active {
+        background-color: #e12a4c;
+        color: #fff; }
+      .navbar.is-instagram .navbar-start .navbar-link::after,
+      .navbar.is-instagram .navbar-end .navbar-link::after {
+        border-color: #fff; }
+      .navbar.is-instagram .navbar-item.has-dropdown:hover .navbar-link,
+      .navbar.is-instagram .navbar-item.has-dropdown.is-active .navbar-link {
+        background-color: #e12a4c;
+        color: #fff; }
+      .navbar.is-instagram .navbar-dropdown a.navbar-item.is-active {
+        background-color: #E4405F;
         color: #fff; } }
   .navbar > .container {
     align-items: stretch;
@@ -9397,6 +10037,182 @@ label.panel-block {
       @media screen and (max-width: 768px) {
         .hero.is-danger.is-bold .navbar-menu {
           background-image: linear-gradient(141deg, #ff0561 0%, #ff3860 71%, #ff5257 100%); } }
+  .hero.is-twitter {
+    background-color: #55ACEE;
+    color: #fff; }
+    .hero.is-twitter a:not(.button):not(.dropdown-item):not(.tag),
+    .hero.is-twitter strong {
+      color: inherit; }
+    .hero.is-twitter .title {
+      color: #fff; }
+    .hero.is-twitter .subtitle {
+      color: rgba(255, 255, 255, 0.9); }
+      .hero.is-twitter .subtitle a:not(.button),
+      .hero.is-twitter .subtitle strong {
+        color: #fff; }
+    @media screen and (max-width: 1023px) {
+      .hero.is-twitter .navbar-menu {
+        background-color: #55ACEE; } }
+    .hero.is-twitter .navbar-item,
+    .hero.is-twitter .navbar-link {
+      color: rgba(255, 255, 255, 0.7); }
+    .hero.is-twitter a.navbar-item:hover, .hero.is-twitter a.navbar-item.is-active,
+    .hero.is-twitter .navbar-link:hover,
+    .hero.is-twitter .navbar-link.is-active {
+      background-color: #3ea1ec;
+      color: #fff; }
+    .hero.is-twitter .tabs a {
+      color: #fff;
+      opacity: 0.9; }
+      .hero.is-twitter .tabs a:hover {
+        opacity: 1; }
+    .hero.is-twitter .tabs li.is-active a {
+      opacity: 1; }
+    .hero.is-twitter .tabs.is-boxed a, .hero.is-twitter .tabs.is-toggle a {
+      color: #fff; }
+      .hero.is-twitter .tabs.is-boxed a:hover, .hero.is-twitter .tabs.is-toggle a:hover {
+        background-color: rgba(10, 10, 10, 0.1); }
+    .hero.is-twitter .tabs.is-boxed li.is-active a, .hero.is-twitter .tabs.is-boxed li.is-active a:hover, .hero.is-twitter .tabs.is-toggle li.is-active a, .hero.is-twitter .tabs.is-toggle li.is-active a:hover {
+      background-color: #fff;
+      border-color: #fff;
+      color: #55ACEE; }
+    .hero.is-twitter.is-bold {
+      background-image: linear-gradient(141deg, #1bbbf5 0%, #55ACEE 71%, #68a1f4 100%); }
+      @media screen and (max-width: 768px) {
+        .hero.is-twitter.is-bold .navbar-menu {
+          background-image: linear-gradient(141deg, #1bbbf5 0%, #55ACEE 71%, #68a1f4 100%); } }
+  .hero.is-linkedin {
+    background-color: #0077B5;
+    color: #fff; }
+    .hero.is-linkedin a:not(.button):not(.dropdown-item):not(.tag),
+    .hero.is-linkedin strong {
+      color: inherit; }
+    .hero.is-linkedin .title {
+      color: #fff; }
+    .hero.is-linkedin .subtitle {
+      color: rgba(255, 255, 255, 0.9); }
+      .hero.is-linkedin .subtitle a:not(.button),
+      .hero.is-linkedin .subtitle strong {
+        color: #fff; }
+    @media screen and (max-width: 1023px) {
+      .hero.is-linkedin .navbar-menu {
+        background-color: #0077B5; } }
+    .hero.is-linkedin .navbar-item,
+    .hero.is-linkedin .navbar-link {
+      color: rgba(255, 255, 255, 0.7); }
+    .hero.is-linkedin a.navbar-item:hover, .hero.is-linkedin a.navbar-item.is-active,
+    .hero.is-linkedin .navbar-link:hover,
+    .hero.is-linkedin .navbar-link.is-active {
+      background-color: #00669c;
+      color: #fff; }
+    .hero.is-linkedin .tabs a {
+      color: #fff;
+      opacity: 0.9; }
+      .hero.is-linkedin .tabs a:hover {
+        opacity: 1; }
+    .hero.is-linkedin .tabs li.is-active a {
+      opacity: 1; }
+    .hero.is-linkedin .tabs.is-boxed a, .hero.is-linkedin .tabs.is-toggle a {
+      color: #fff; }
+      .hero.is-linkedin .tabs.is-boxed a:hover, .hero.is-linkedin .tabs.is-toggle a:hover {
+        background-color: rgba(10, 10, 10, 0.1); }
+    .hero.is-linkedin .tabs.is-boxed li.is-active a, .hero.is-linkedin .tabs.is-boxed li.is-active a:hover, .hero.is-linkedin .tabs.is-toggle li.is-active a, .hero.is-linkedin .tabs.is-toggle li.is-active a:hover {
+      background-color: #fff;
+      border-color: #fff;
+      color: #0077B5; }
+    .hero.is-linkedin.is-bold {
+      background-image: linear-gradient(141deg, #006b82 0%, #0077B5 71%, #0065cf 100%); }
+      @media screen and (max-width: 768px) {
+        .hero.is-linkedin.is-bold .navbar-menu {
+          background-image: linear-gradient(141deg, #006b82 0%, #0077B5 71%, #0065cf 100%); } }
+  .hero.is-facebook {
+    background-color: #3B5999;
+    color: #fff; }
+    .hero.is-facebook a:not(.button):not(.dropdown-item):not(.tag),
+    .hero.is-facebook strong {
+      color: inherit; }
+    .hero.is-facebook .title {
+      color: #fff; }
+    .hero.is-facebook .subtitle {
+      color: rgba(255, 255, 255, 0.9); }
+      .hero.is-facebook .subtitle a:not(.button),
+      .hero.is-facebook .subtitle strong {
+        color: #fff; }
+    @media screen and (max-width: 1023px) {
+      .hero.is-facebook .navbar-menu {
+        background-color: #3B5999; } }
+    .hero.is-facebook .navbar-item,
+    .hero.is-facebook .navbar-link {
+      color: rgba(255, 255, 255, 0.7); }
+    .hero.is-facebook a.navbar-item:hover, .hero.is-facebook a.navbar-item.is-active,
+    .hero.is-facebook .navbar-link:hover,
+    .hero.is-facebook .navbar-link.is-active {
+      background-color: #344e87;
+      color: #fff; }
+    .hero.is-facebook .tabs a {
+      color: #fff;
+      opacity: 0.9; }
+      .hero.is-facebook .tabs a:hover {
+        opacity: 1; }
+    .hero.is-facebook .tabs li.is-active a {
+      opacity: 1; }
+    .hero.is-facebook .tabs.is-boxed a, .hero.is-facebook .tabs.is-toggle a {
+      color: #fff; }
+      .hero.is-facebook .tabs.is-boxed a:hover, .hero.is-facebook .tabs.is-toggle a:hover {
+        background-color: rgba(10, 10, 10, 0.1); }
+    .hero.is-facebook .tabs.is-boxed li.is-active a, .hero.is-facebook .tabs.is-boxed li.is-active a:hover, .hero.is-facebook .tabs.is-toggle li.is-active a, .hero.is-facebook .tabs.is-toggle li.is-active a:hover {
+      background-color: #fff;
+      border-color: #fff;
+      color: #3B5999; }
+    .hero.is-facebook.is-bold {
+      background-image: linear-gradient(141deg, #254f7c 0%, #3B5999 71%, #3c4eb1 100%); }
+      @media screen and (max-width: 768px) {
+        .hero.is-facebook.is-bold .navbar-menu {
+          background-image: linear-gradient(141deg, #254f7c 0%, #3B5999 71%, #3c4eb1 100%); } }
+  .hero.is-instagram {
+    background-color: #E4405F;
+    color: #fff; }
+    .hero.is-instagram a:not(.button):not(.dropdown-item):not(.tag),
+    .hero.is-instagram strong {
+      color: inherit; }
+    .hero.is-instagram .title {
+      color: #fff; }
+    .hero.is-instagram .subtitle {
+      color: rgba(255, 255, 255, 0.9); }
+      .hero.is-instagram .subtitle a:not(.button),
+      .hero.is-instagram .subtitle strong {
+        color: #fff; }
+    @media screen and (max-width: 1023px) {
+      .hero.is-instagram .navbar-menu {
+        background-color: #E4405F; } }
+    .hero.is-instagram .navbar-item,
+    .hero.is-instagram .navbar-link {
+      color: rgba(255, 255, 255, 0.7); }
+    .hero.is-instagram a.navbar-item:hover, .hero.is-instagram a.navbar-item.is-active,
+    .hero.is-instagram .navbar-link:hover,
+    .hero.is-instagram .navbar-link.is-active {
+      background-color: #e12a4c;
+      color: #fff; }
+    .hero.is-instagram .tabs a {
+      color: #fff;
+      opacity: 0.9; }
+      .hero.is-instagram .tabs a:hover {
+        opacity: 1; }
+    .hero.is-instagram .tabs li.is-active a {
+      opacity: 1; }
+    .hero.is-instagram .tabs.is-boxed a, .hero.is-instagram .tabs.is-toggle a {
+      color: #fff; }
+      .hero.is-instagram .tabs.is-boxed a:hover, .hero.is-instagram .tabs.is-toggle a:hover {
+        background-color: rgba(10, 10, 10, 0.1); }
+    .hero.is-instagram .tabs.is-boxed li.is-active a, .hero.is-instagram .tabs.is-boxed li.is-active a:hover, .hero.is-instagram .tabs.is-toggle li.is-active a, .hero.is-instagram .tabs.is-toggle li.is-active a:hover {
+      background-color: #fff;
+      border-color: #fff;
+      color: #E4405F; }
+    .hero.is-instagram.is-bold {
+      background-image: linear-gradient(141deg, #df125b 0%, #E4405F 71%, #ec5255 100%); }
+      @media screen and (max-width: 768px) {
+        .hero.is-instagram.is-bold .navbar-menu {
+          background-image: linear-gradient(141deg, #df125b 0%, #E4405F 71%, #ec5255 100%); } }
   .hero.is-small .hero-body {
     padding-bottom: 1.5rem;
     padding-top: 1.5rem; }

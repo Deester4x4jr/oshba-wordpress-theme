@@ -17,7 +17,7 @@ $instagram: #E4405F;
 $instagram-invert: findColorInvert($instagram);
 
 // Post-Customize Steps
-@import "../sass/utilities/derived-variables.sass";
+@import "../../bower/bulma/sass/utilities/derived-variables.sass";
 
 $addColors: (
   "twitter":($twitter, $twitter-invert),
