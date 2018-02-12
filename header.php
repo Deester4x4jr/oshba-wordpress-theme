@@ -39,7 +39,7 @@
   								<a class="navbar-item" href="https://bulma.io">
 									<img src="https://cohba.org/wp-content/uploads/2015/09/logo.jpg" alt="Bulma: a modern CSS framework based on Flexbox">
 								</a>
-								<button class="button navbar-burger">
+								<button class="button navbar-burger" data-target="main-nav">
 							      <span></span>
 							      <span></span>
 							      <span></span>
@@ -53,7 +53,7 @@
 
 								<div class="navbar-end">
 									<div class="navbar-item">
-										<div class="field is-grouped">
+										<div class="field is-grouped is-grouped-centered">
 											<?php include locate_template('blocks/social/header/social-menu.php'); ?>
 										</div>
 									</div>
