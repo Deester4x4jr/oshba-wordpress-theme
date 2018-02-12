@@ -11,8 +11,8 @@
 ?>
 
 <!-- Hero Slider Section -->
-<section class="hero is-large is-primary">
-  <div class="slider-for">
+<section class="hero is-medium">
+  <div class="hero-slider">
     <?php
       
       foreach ($posts as $post) {
@@ -26,19 +26,23 @@
 
     ?>
   </div>
-  <div class="slider-nav">
-    <?php
-      
-      foreach ($posts as $post) {
+</section>
+<section class="hero">
+  <div class="hero-slider-nav">
+    <div class="columns">
+      <?php
         
-        setup_postdata($post);
+        foreach ($posts as $post) {
+          
+          setup_postdata($post);
 
-        echo '<div><a href="'.get_permalink().'"><img src="'.get_the_post_thumbnail_url(get_the_ID(),'full').'" /></a></div>';
+          echo '<div class="column is-one-third"><a href="'.get_permalink().'"><img src="'.get_the_post_thumbnail_url(get_the_ID(),'full').'" /></a></div>';
 
-        wp_reset_postdata();
-      }
+          wp_reset_postdata();
+        }
 
-    ?>
+      ?>
+    </div>
   </div>
 
   <!-- <div class="hero-body">
@@ -58,7 +62,7 @@
 
   jQuery(document).ready(function($) {
     
-    $('.slider-for').slick({
+    $('.hero-slider').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows: false,
@@ -67,7 +71,7 @@
       asNavFor: '.slider-nav'
     });
     
-    $('.slider-nav').slick({
+    $('.hero-slider-nav').slick({
       slidesToShow: 3,
       slidesToScroll: 1,
       asNavFor: '.slider-for',
