@@ -12,6 +12,12 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="<?php bloginfo('description'); ?>">
 
+		<meta property="og:title" content="Some Cool Title">
+		<meta property="og:description" content="Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.">
+		<meta property="og:image" content="/wp-content/uploads/2018/02/og-image-horizontal.png">
+		<meta property="og:image" content="/wp-content/uploads/2018/02/og-image-vertical.png">
+		<meta property="og:image" content="/wp-content/uploads/2018/02/og-image-square.png">
+
 		<?php wp_head(); ?>
 		<script>
         // conditionizr.com
