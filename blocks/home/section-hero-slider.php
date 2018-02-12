@@ -19,7 +19,7 @@
         
         setup_postdata($post);
 
-        echo '<div><div class="slide-content" style="position: absolute;top: 50%;transform: translateY(-50%);z-index: 2;margin: 0 10vw;">';
+        echo '<div><div class="slide-content is-two-thirds" style="position: absolute;top: 50%;transform: translateY(-50%);z-index: 2;margin: 0 10vw;">';
 
           echo '<h1 class="title is-1 has-text-white">'.get_the_title().'</h1>';
           echo '<h2 class="subtitle is-3 has-text-white">Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Donec sed odio dui.</h2>';
