@@ -9,9 +9,9 @@
 	        <!-- content -->
 	        <div class="content has-text-centered">
 	        	<!-- Logo -->
-	        	<p>
+	        	<p class="logo">
 	        		<a class="navbar-item" href="https://bulma.io">
-						<img src="https://cohba.org/wp-content/uploads/2015/09/logo.jpg" alt="Bulma: a modern CSS framework based on Flexbox">
+						<img src="/wp-content/uploads/2018/02/oshba-logo.png" alt="Bulma: a modern CSS framework based on Flexbox">
 					</a>
 				</p>
 	        	<div class="field is-grouped is-grouped-centered">
