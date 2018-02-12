@@ -432,7 +432,7 @@ template {
 .hero .hero-slider .slick-slide:nth-of-type(3):before {
   background: #9e7500; }
 
-.hero .hero-slider .slick-slide:nth-of-type(4):before:nth-of-type(4) {
+.hero .hero-slider .slick-slide:nth-of-type(4):before {
   background: #2e009e; }
 
 /*! bulma.io v0.6.2 | MIT License | github.com/jgthms/bulma */
