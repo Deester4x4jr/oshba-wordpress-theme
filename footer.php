@@ -7,7 +7,7 @@
 	    <div class="container">
 
 	    	<!-- nav -->
-			<nav id="footer-nav" class="navbar is-transparent" role="navigation" aria-label="footer navigation">
+			<!-- <nav id="footer-nav" class="navbar is-transparent" role="navigation" aria-label="footer navigation">
 				
 				<div class="container">
 
@@ -19,7 +19,30 @@
 
 					</div>
 				</div>
-			</nav>
+			</nav> -->
+			<div class="field is-grouped is-grouped-centered">
+        		<p class="control">
+				    <a class="button is-link is-inverted" target="_blank" href="/blog">
+				        <span>Blog</span>
+				    </a>
+				</p>
+				<p class="control">
+				    <a class="button is-link is-inverted" target="_blank" href="/events">
+				        <span>Events</span>
+				    </a>
+				</p>
+				<p class="control">
+				    <a class="button is-link is-inverted" target="_blank" href="/resources">
+				        <span>Resources</span>
+				    </a>
+				</p>
+				<p class="control">
+				    <a class="button is-link is-inverted" target="_blank" href="/contact-us">
+				        <span>Contact Us</span>
+				    </a>
+				</p>
+			</div>
+
 	        
 	        <!-- content -->
 	        <div class="content has-text-centered">
