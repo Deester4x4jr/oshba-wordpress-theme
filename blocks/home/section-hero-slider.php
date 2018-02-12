@@ -12,14 +12,14 @@
 
 <!-- Hero Slider Section -->
 <section class="hero is-medium">
-  <div class="hero-body hero-slider">
+  <div class="hero-body hero-slider columns">
     <?php
       
       foreach ($posts as $post) {
         
         setup_postdata($post);
 
-        echo '<a href="'.get_permalink().'"><img src="'.get_the_post_thumbnail_url(get_the_ID(),'full').'" /></a>';
+        echo '<div class="column is-12"><a href="'.get_permalink().'"><img src="'.get_the_post_thumbnail_url(get_the_ID(),'full').'" /></a></div>';
 
         wp_reset_postdata();
       }
@@ -75,6 +75,7 @@
       asNavFor: '.hero-slider',
       arrows: true,
       centerMode: true,
+      centerPadding: '60px',
       focusOnSelect: true
     });
 
