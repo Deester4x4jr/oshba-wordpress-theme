@@ -74,7 +74,9 @@
       dots: true,
       fade: true,
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 3000,
+      pauseOnHover: true,
+      pauseOnDotsHover: true,
       asNavFor: '.hero-slider-nav'
     });
     
@@ -84,7 +86,8 @@
       asNavFor: '.hero-slider',
       arrows: false,
       centerMode: true,
-      focusOnSelect: true
+      focusOnSelect: true,
+      pauseOnHover: true,
     });
 
   });
