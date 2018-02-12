@@ -6,7 +6,7 @@
 
 	foreach ($parts as $part=>$slug) {
 		
-		get_template_part('blocks/home',$slug);
+		get_template_part('blocks/home/section',$slug);
 	}
 
 ?>
