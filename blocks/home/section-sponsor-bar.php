@@ -33,10 +33,11 @@
   jQuery(document).ready(function($) {
     
     $('.sponsors').slick({
-    	slidesToShow: 3,
+    	slidesToShow: 5,
 		slidesToScroll: 1,
 		autoplay: true,
-		autoplaySpeed: 500,
+		speed: 300,
+		// autoplaySpeed: 500,
 		pauseOnHover: true,
     });
 
