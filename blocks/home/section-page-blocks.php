@@ -151,7 +151,7 @@
           </div>
         </div>
         <div class="tile is-parent">
-          <article class="tile is-child notification is-light">
+          <article class="tile is-child notification is-dark">
             <p class="title">Tiles can be very wide</p>
             <p class="subtitle">With a ton of text</p>
             <div class="content">
