@@ -100,7 +100,7 @@
             <article class="tile is-child notification is-info">
               <p class="title">This tile</p>
               <p class="subtitle">Has an inline image</p>
-              <figure class="image is-4by3">
+              <figure class="image">
                 <img src="http://thaw.io/wp-content/uploads/2018/02/house-1.png">
               </figure>
             </article>
