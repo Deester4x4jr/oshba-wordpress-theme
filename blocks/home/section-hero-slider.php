@@ -73,6 +73,8 @@
       arrows: true,
       dots: true,
       fade: true,
+      autoplay: true,
+      autoplaySpeed: 2000,
       asNavFor: '.hero-slider-nav'
     });
     
