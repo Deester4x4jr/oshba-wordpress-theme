@@ -30,9 +30,6 @@
               <iframe width="640" height="380" src="https://www.youtube.com/embed/hefs-tGUyIc?modestbranding=1&autohide=1&showinfo=0&controls=0" frameborder="0" allowfullscreen></iframe>
             </div>
           </div>
-          <p class="intro-author">
-            <span>Value in Membership of the Tulsa Home Builders Association</span>
-          </p>
         </div>
       </div>
 
