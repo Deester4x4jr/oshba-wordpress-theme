@@ -4,9 +4,7 @@
       <div class="columns">
         <div class="column is-content">
           <div class="content">
-            <h1 class="title intro-title">
-              <strong>Bulma</strong> is a free and open source <strong>CSS</strong> framework based on <strong>Flexbox</strong>.
-            </h1>
+            <h1 class="title">COHBA: The Trusted Source for Everything ‘HOME’</h1>
 
             <div id="ghbtns" class="intro-ghbtns">
               <iframe src="https://ghbtns.com/github-btn.html?user=jgthms&amp;repo=bulma&amp;type=star&amp;count=true&amp;size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
