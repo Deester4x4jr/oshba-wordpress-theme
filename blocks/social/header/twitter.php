@@ -1,8 +1,10 @@
 <?php
 
-	$url = 'https://www.facebook.com/'.get_sub_field('username');
-	$icn = 'facebook-f';
-	$msg = 'Like Us';
+    // Twitter Header Social Menu Item
+
+	$url = 'https://www.twitter.com/'.get_sub_field('username');
+	$icn = 'twitter-f';
+	$msg = 'Tweet';
 
 ?>
 
