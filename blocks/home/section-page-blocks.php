@@ -45,18 +45,12 @@
   <div class="hero-body">
     <div class="container">
       <nav class="columns">
-        <a class="column has-text-centered" href="https://bulma.io/documentation/overview/responsiveness/">
-          <span class="icon is-large" style="margin-right: -15px;">
-            <i class="fas fa-lg fa-mobile-alt"></i>
-          </span>
+        <div class="column has-text-centered">
           <span class="icon is-large">
-            <i class="fas fa-2x fa-tablet-alt"></i>
+            <i class="fas fa-child"></i>
           </span>
-          <span class="icon is-large" style="margin-right: 10px;">
-            <i class="fas fa-3x fa-desktop"></i>
-          </span>
-          <p class="title is-4" style="margin-top: 0.5em;"><strong>100% Responsive</strong></p>
-          <p class="subtitle">Designed for <strong>mobile</strong> first</p>
+          <p class="title is-4" style="margin-top: 0.5em;"><strong>Cool Icons</strong></p>
+          <p class="subtitle">With sub-text too</p>
         </a>
         <a class="column has-text-centered" href="https://bulma.io/documentation/overview/modular/">
           <span class="icon is-large">
