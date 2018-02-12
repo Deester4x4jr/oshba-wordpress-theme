@@ -13,7 +13,7 @@
 	            </p>
 	        	<div class="field is-grouped is-grouped-centered">
 	        		<p class="control">
-					    <a class="button is-link" target="_blank" href="https://www.facebook.com/samplePage">
+					    <a class="" target="_blank" href="https://www.facebook.com/samplePage">
 					        <!-- <span class="icon">
 					            <i class="fab fa-facebook-f"></i>
 					        </span> -->
