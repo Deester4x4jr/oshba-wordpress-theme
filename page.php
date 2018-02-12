@@ -1,43 +1,52 @@
 <?php get_header(); ?>
 
 	<main role="main">
-		<!-- section -->
-		<section>
 
-			<h1><?php the_title(); ?></h1>
+		<?php if (is_front_page()): ?>
 
-		<?php if (have_posts()): while (have_posts()) : the_post(); ?>
+			<?php get_template_part('core/home','content'); ?>
 
-			<!-- article -->
-			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
+		<? else: ?>
 
-				<?php the_content(); ?>
+			<!-- section -->
+			<section>
 
-				<?php comments_template( '', true ); // Remove if you don't want comments ?>
+				<h1><?php the_title(); ?></h1>
 
-				<br class="clear">
+			<?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
-				<?php edit_post_link(); ?>
+				<!-- article -->
+				<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-			</article>
-			<!-- /article -->
+					<?php the_content(); ?>
 
-		<?php endwhile; ?>
+					<?php comments_template( '', true ); // Remove if you don't want comments ?>
 
-		<?php else: ?>
+					<br class="clear">
 
-			<!-- article -->
-			<article>
+					<?php edit_post_link(); ?>
 
-				<h2><?php _e( 'Sorry, nothing to display.', 'html5blank' ); ?></h2>
+				</article>
+				<!-- /article -->
 
-			</article>
-			<!-- /article -->
+			<?php endwhile; ?>
+
+			<?php else: ?>
+
+				<!-- article -->
+				<article>
+
+					<h2><?php _e( 'Sorry, nothing to display.', 'html5blank' ); ?></h2>
+
+				</article>
+				<!-- /article -->
+
+			<?php endif; ?>
+
+			</section>
+			<!-- /section -->
 
 		<?php endif; ?>
-
-		</section>
-		<!-- /section -->
 	</main>
 
 <?php get_sidebar(); ?>
