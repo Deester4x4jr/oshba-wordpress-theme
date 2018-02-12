@@ -27,6 +27,8 @@
 
       ?>
     </div>
+  </div>
+  <div class="container">
     <div class="slider-nav">
       <?php
         
