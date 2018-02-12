@@ -141,7 +141,7 @@
             </article>
           </div>
           <div class="tile is-parent">
-            <article class="tile is-child notification is-info">
+            <article class="tile is-child notification is-white">
               <p class="title">This Blog</p>
               <p class="subtitle">Has an inline image</p>
               <figure class="image">
