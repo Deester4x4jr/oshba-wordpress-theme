@@ -443,7 +443,7 @@ template {
 .hero .hero-slider .slick-slide:nth-of-type(4):before {
   background: #2e009e; }
 
-.tile.faded-tile-blue {
+.tile.faded-tile-blue:before {
   content: "";
   position: absolute;
   background: #0072ff;
@@ -456,7 +456,7 @@ template {
           clip-path: polygon(0 0, 65% 0, 100% 100%, 0% 100%);
   opacity: 0.75; }
 
-.tile.faded-tile-green {
+.tile.faded-tile-green:before {
   content: "";
   position: absolute;
   background: #00ffb8;
