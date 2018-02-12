@@ -1,6 +1,6 @@
 <?php
-	
-	$counter = 0;
+    
+    $counter = 0;
     
     if( have_rows('social_accounts', 'option') ) {
 
@@ -13,8 +13,11 @@
             the_row();
 
             $network = get_sub_field('network');
-            $block = "blocks/social/header/". $network .".php";
-            include(locate_template($block));
+            $vars = "blocks/social/header/". $network .".php";
+            include(locate_template($vars));
+
+            $item = "blocks/social/header/social-menu-item.php";
+            include(locate_template($item));
 
             $counter++;
         }

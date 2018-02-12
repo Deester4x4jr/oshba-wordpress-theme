@@ -49,7 +49,7 @@
 								<div class="navbar-end">
 									<div class="navbar-item">
 										<div class="field is-grouped">
-											<?php include locate_template('social-menu-header.php'); ?>
+											<?php include locate_template('blocks/social/header/social-menu.php'); ?>
 										</div>
 									</div>
 								</div>
