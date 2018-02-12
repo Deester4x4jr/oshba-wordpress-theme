@@ -3,7 +3,7 @@
     // LinkedIn Header Social Menu Item
 
 	$url = 'https://www.linkedin.com/in/'.get_sub_field('username');
-	$icn = 'linkedin-f';
+	$icn = 'linkedin-in';
 	$msg = 'Connect';
 
 ?>
