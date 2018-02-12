@@ -3,7 +3,7 @@
     // Instagram Header Social Menu Item
 
 	$url = 'https://www.instagram.com/'.get_sub_field('username');
-	$icn = 'instagram-f';
+	$icn = 'instagram';
 	$msg = 'Follow';
 
 ?>
