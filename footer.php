@@ -22,22 +22,22 @@
 			</nav> -->
 			<div class="field is-grouped is-grouped-centered" style="margin-bottom: 2rem;">
         		<p class="control">
-				    <a class="button is-text" target="_blank" href="/blog">
+				    <a class="button is-light has-text-info" target="_blank" href="/blog">
 				        <span>Blog</span>
 				    </a>
 				</p>
 				<p class="control">
-				    <a class="button is-text" target="_blank" href="/events">
+				    <a class="button is-light has-text-info" target="_blank" href="/events">
 				        <span>Events</span>
 				    </a>
 				</p>
 				<p class="control">
-				    <a class="button is-text" target="_blank" href="/resources">
+				    <a class="button is-light has-text-info" target="_blank" href="/resources">
 				        <span>Resources</span>
 				    </a>
 				</p>
 				<p class="control">
-				    <a class="button is-text" target="_blank" href="/contact-us">
+				    <a class="button is-light has-text-info" target="_blank" href="/contact-us">
 				        <span>Contact Us</span>
 				    </a>
 				</p>
