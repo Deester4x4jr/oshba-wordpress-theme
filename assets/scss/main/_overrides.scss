@@ -6,3 +6,18 @@ $navbar-item-img-max-height: 3rem;
 .button.is-circle {
     border-radius: 100%;
 }
+
+.slider.sponsors {
+    margin: 2rem 0;
+}
+
+.slider.sponsors .slick-slide img {
+    max-width: 8rem;
+    margin: 0 auto;
+    opacity: 0.75;
+    transition: all 0.3s ease;
+}
+
+.slider.sponsors .slick-slide img:hover {
+    opacity: 1;
+}

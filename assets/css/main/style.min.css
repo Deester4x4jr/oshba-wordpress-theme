@@ -406,6 +406,21 @@ template {
 .button.is-circle {
   border-radius: 100%; }
 
+.slider.sponsors {
+  margin: 32px 0;
+  margin: 2rem 0; }
+
+.slider.sponsors .slick-slide img {
+  max-width: 128px;
+  max-width: 8rem;
+  margin: 0 auto;
+  opacity: 0.75;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+
+.slider.sponsors .slick-slide img:hover {
+  opacity: 1; }
+
 /*! bulma.io v0.6.2 | MIT License | github.com/jgthms/bulma */
 @-webkit-keyframes spinAround {
   from {
