@@ -21,11 +21,11 @@
           </div>
         </div>
 
-        <div class="column is-image">
+        <div class="column has-text-right">
           <div id="introVideo" class="intro-video has-loaded">
             <div class="intro-spinner"></div>
             <div class="intro-iframe">
-              <iframe width="560" height="315" src="https://www.youtube.com/embed/hefs-tGUyIc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+              <iframe width="640" src="https://www.youtube.com/embed/hefs-tGUyIc" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             </div>
           </div>
           <p class="intro-author">
