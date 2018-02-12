@@ -9,11 +9,11 @@
 	        <!-- content -->
 	        <div class="content has-text-centered">
 	        	<!-- Logo -->
-	        	<div class="navbar-brand">
-					<a class="navbar-item" href="https://bulma.io">
+	        	<p>
+	        		<a class="navbar-item" href="https://bulma.io">
 						<img src="https://cohba.org/wp-content/uploads/2015/09/logo.jpg" alt="Bulma: a modern CSS framework based on Flexbox">
 					</a>
-				</div>
+				</p>
 	        	<div class="field is-grouped is-grouped-centered">
 	        		<p class="control">
 					    <a class="button is-link is-facebook is-circle" target="_blank" href="https://www.facebook.com/samplePage">
