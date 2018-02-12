@@ -35,6 +35,7 @@
     $('.sponsors').slick({
       slidesToShow: 5,
       slidesToScroll: 1,
+      autoPlay: true,
       speed: 300,
       pauseOnHover: true,
       inifite: true,
