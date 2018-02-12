@@ -61,7 +61,8 @@
     $('.slider-for').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
-      arrows: true,
+      arrows: false,
+      dots: true,
       fade: true,
       asNavFor: '.slider-nav'
     });
@@ -71,7 +72,6 @@
       slidesToScroll: 1,
       asNavFor: '.slider-for',
       arrows: true,
-      dots: true,
       centerMode: true,
       focusOnSelect: true
     });
