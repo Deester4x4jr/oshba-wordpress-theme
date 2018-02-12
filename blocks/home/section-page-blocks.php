@@ -78,7 +78,6 @@
   </div>
 </section>
 
-<!--
 <section class="section is-medium">
   <div class="container">
     <h3 class="title is-2">
@@ -140,4 +139,3 @@
   </div>
     </div>
 </section>
--->
