@@ -63,7 +63,7 @@
     $('.hero-slider').slick({
       slidesToShow: 1,
       slidesToScroll: 1,
-      arrows: false,
+      arrows: true,
       dots: true,
       fade: true,
       asNavFor: '.hero-slider-nav'
@@ -73,7 +73,7 @@
       slidesToShow: 3,
       slidesToScroll: 1,
       asNavFor: '.hero-slider',
-      arrows: true,
+      arrows: false,
       centerMode: true,
       focusOnSelect: true
     });
