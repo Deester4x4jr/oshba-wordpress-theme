@@ -4,7 +4,7 @@
       <div class="columns">
         <div class="column is-content">
           <div class="content">
-            <h1 class="title">COHBA: The Trusted Source for Everything ‘HOME’</h1>
+            <h1 class="title">Sections with Video Content</h1>
 
             <p>The home building business is based on trust. Doing business with a member of the Central Oklahoma Home Builders Association (COHBA), means you are dealing with someone who stands behind the products they sell. That’s something you can build on.</p>
 
@@ -71,7 +71,7 @@
 
 		<div class="column is-content is-half">
           <div class="content">
-            <h1 class="title">COHBA: The Trusted Source for Everything ‘HOME’</h1>
+            <h1 class="title">Sections with Imagery</h1>
 
             <p>The home building business is based on trust. Doing business with a member of the Central Oklahoma Home Builders Association (COHBA), means you are dealing with someone who stands behind the products they sell. That’s something you can build on.</p>
 
