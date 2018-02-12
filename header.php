@@ -14,12 +14,6 @@
 
 		<!-- Social Sharing Block (Replace this with PHP Later) -->
 
-			<!-- Google+ Stuff -->
-			<meta itemscope itemtype="http://schema.org/Article" />
-			<meta itemprop="headline" content="Some Cool Title" />
-			<meta itemprop="description" content="Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis." />
-			<meta itemprop="image" content="http://www.thaw.io/wp-content/uploads/2018/02/og-image-horizontal.png" />
-
 			<!-- Facebook/LinkedIn Social Sharing -->
 			<meta property="og:locale" content="en_US" />
 			<meta property="og:type" content="article" />
@@ -28,8 +22,14 @@
 			<meta property="og:title" content="Some Cool Title">
 			<meta property="og:description" content="Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.">
 			<meta property="og:image" content="http://www.thaw.io/wp-content/uploads/2018/02/og-image-horizontal.png">
+			
+			<!-- Google+ Stuff -->
+			<!-- <meta itemscope itemtype="http://schema.org/Article" />
+			<meta itemprop="headline" content="Some Cool Title" />
+			<meta itemprop="description" content="Cras mattis consectetur purus sit amet fermentum. Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis." />
+			<meta itemprop="image" content="http://www.thaw.io/wp-content/uploads/2018/02/og-image-horizontal.png" /> -->
 
-			<!-- Pinterest Sharing Options (Vertical & Square Orientation) -->
+			<!-- Pinterest/Google+ Sharing Options (Vertical & Square Orientation) -->
 			<meta property="og:image" content="http://www.thaw.io/wp-content/uploads/2018/02/og-image-vertical.png">
 			<meta property="og:image" content="http://www.thaw.io/wp-content/uploads/2018/02/og-image-square.png">
 
