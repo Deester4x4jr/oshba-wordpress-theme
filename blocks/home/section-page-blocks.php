@@ -6,41 +6,30 @@
           <div class="content">
             <h1 class="title">COHBA: The Trusted Source for Everything ‘HOME’</h1>
 
-            <div id="ghbtns" class="intro-ghbtns">
-              <iframe src="https://ghbtns.com/github-btn.html?user=jgthms&amp;repo=bulma&amp;type=star&amp;count=true&amp;size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
-              <iframe src="https://ghbtns.com/github-btn.html?user=jgthms&amp;repo=bulma&amp;type=fork&amp;count=false&amp;size=large" frameborder="0" scrolling="0" width="80px" height="30px"></iframe>
-            </div>
-
-            
-
-            <pre id="npm" class="intro-npm"><code>npm install bulma</code><code id="npmCopy" class="intro-npm-copy" data-clipboard-text="npm install bulma">copy</code></pre>
+            <p>The home building business is based on trust. Doing business with a member of the Central Oklahoma Home Builders Association (COHBA), means you are dealing with someone who stands behind the products they sell. That’s something you can build on.</p>
 
             <nav class="intro-buttons">
-              <a class="button is-primary is-large" href="https://github.com/jgthms/bulma/releases/download/0.6.2/bulma-0.6.2.zip">
+              <a class="button is-primary is-large" href="#">
                 <span>
-                  <strong>Download</strong>
-                  <small>v0.6.2</small>
+                  <strong>Learn More</strong>
                 </span>
               </a>
-              <a class="button is-light is-large" href="/documentation/overview/start/">
-                <span>
-                  <span>View</span>
-                  <strong>docs</strong>
-                </span>
+              <a class="button is-light is-large" href="#">
+                <span>Find Members</span>
               </a>
             </nav>
           </div>
         </div>
 
-        <div class="column is-video">
+        <div class="column is-image">
           <div id="introVideo" class="intro-video has-loaded">
             <div class="intro-spinner"></div>
             <div class="intro-iframe">
-              <iframe id="introIframe" src="https://player.vimeo.com/video/237608586?color=00d1b2" width="640" height="338" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-vimeo-tracked="true" data-ready="true"></iframe>
+              <iframe id="introIframe" src="https://www.youtube.com/watch?v=hefs-tGUyIc" width="640" height="338" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen="" data-vimeo-tracked="true" data-ready="true"></iframe>
             </div>
           </div>
           <p class="intro-author">
-            <span>Video by <a href="http://www.vuemastery.com/" target="_blank">Vue Mastery</a></span>
+            <span>Value in Membership of the Tulsa Home Builders Association</span>
           </p>
         </div>
       </div>
